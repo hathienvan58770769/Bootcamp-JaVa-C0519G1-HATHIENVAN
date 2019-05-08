@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>Tính Diện Tích Hình Chữ Nhật</h1>
+            <input type="text" placeholder="chiều dài" id="cdai">
+            <input type="text" placeholder="chiều rộng " id="crong">
+            <div>
+                <button type="dientich" onclick="gettinhDienTich()" style="margin-top:10px;">Kết Quả </button>
+            </div>
+        </div>
+        <script >
+            function gettinhDienTich(){
+                let d = document.getElementById('cdai').value;
+                let r = document.getElementById('crong').value;
+                let w = parseInt(d);
+                let h = parseInt(r);
+                let S = w*h;
+                document.write("S = "+ S);
+
+            }
+        </script>
+
+    </div>
+</body>
+</html>

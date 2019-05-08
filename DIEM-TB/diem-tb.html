@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>diem trung binh</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col-12 d-flex justify-content-center">
+            <div class="col-6 d-flex flex-column">
+                <h1 class="text-primary text-center">phần mêm tính điểm trung bình</h1>
+                <input type="text" id="vatly" class="form-control" placeholder="nhập điểm vật lý">
+                <input type="text" id="hoahoc" class="form-control my-3" placeholder="nhập điểm hóa học">
+                <input type="text" id="sinhhoc" class="form-control" placeholder="nhập điểm sinh học">
+                <div>
+                    <button type="button" onclick="getDiemTb()" style="margin-top:10px;"> xem điểm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    function getDiemTb()
+{
+    let a = document.getElementById("vatly").value;
+    let b = document.getElementById("hoahoc").value;
+    let c = document.getElementById("sinhhoc").value;
+    //convert string to integer
+    let d = parseInt(a);
+    let g = parseInt(b);
+    let f = parseInt(c);
+    
+    let TB = (d+g+f)/3;
+    let sum = d + g + f;
+    document.write(" điểm trung bình là: " + TB );
+    document.write(" tổng điểm: " + sum);
+}
+</script>
+</body>
+</html>

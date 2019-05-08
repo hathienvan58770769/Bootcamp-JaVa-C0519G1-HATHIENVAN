@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+            <h1>
+                Phép tính số ngày trong một tháng 
+            </h1>
+            <form>
+                <input type="text" name="" id="Month"  placeholder="nhập tháng">
+                <button type="button" onclick="getTinhSoNgay();">Tính số ngày</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function getTinhSoNgay(){
+        let month = parseInt(document.getElementById('Month').value);
+        switch (month) {
+            case 1:
+            case 3:
+            case 5:
+            case 6:
+            case 7:
+            case 9:
+            case 11:
+                alert(month + ' có 31 ngày');
+                break;
+            case 4:
+            case 8:
+            case 10:
+            case 12:
+                alert(month + ' có 30 ngày');
+                break;
+            case 2:
+                alert(month + ' có 28 hoặc 29 ngày');
+                break;
+            default:
+                alert('nhập lại...');
+                break;
+        }
+    }
+    </script>
+</body>
+</html>

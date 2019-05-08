@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let w = prompt('nhập cân nặng', '');
+        let h = prompt('nhập chiều cao', '');
+        let bmi = w/(h*h);
+        if (bmi<18.5) {
+            alert(bmi + ' Underweight ');
+        } else {
+            if (bmi<25.0) {
+                alert( bmi + ' Normal ');
+            } else {
+                if (bmi<30.0) {
+                    alert(bmi + ' Overweight ');
+                } else {
+                    alert(bmi + ' Obese ');
+                }
+            }
+        }
+        </script>
+</body>
+</html>

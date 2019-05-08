@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Caculator</h1>
+            <input type="text" placeholder="..." id="so1">
+            <input type="text" placeholder="..." id="so2">
+            <div>
+                <button type="button" onclick="tong()"> + </button>
+                <button type="button" onclick="hieu()"> - </button>
+                <button type="button" onclick="tich()"> * </button>
+                <button type="button" onclick="thuong()"> / </button>
+            </div>
+            <div>
+                <p id="hienthi"></p>
+            </div>
+            <script>
+                function tong(){
+                    let a = parseFloat(document.getElementById('so1').value);
+                    let b = parseFloat(document.getElementById('so2').value);
+                    let KQ = a+b;
+                    document.getElementById('hienthi').innerHTML = KQ ;
+                }
+                function hieu(){
+                    let a = parseFloat(document.getElementById('so1').value);
+                    let b = parseFloat(document.getElementById('so2').value);
+                    let KQ = a-b;
+                    document.getElementById('hienthi').innerHTML = KQ;
+                }
+                function tich(){
+                    let a = parseFloat(document.getElementById('so1').value);
+                    let b = parseFloat(document.getElementById('so2').value);
+                    let KQ = a*b;
+                    document.getElementById('hienthi').innerHTML = KQ;
+                }
+                function thuong(){
+                    let a = parseFloat(document.getElementById('so1').value);
+                    let b = parseFloat(document.getElementById('so2').value);
+                    let KQ = a/b;
+                    document.getElementById('hienthi').innerHTML = KQ;
+                }
+            </script>
+
+        </div>
+    </div>
+</body>
+</html>

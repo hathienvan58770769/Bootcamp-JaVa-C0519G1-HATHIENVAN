@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>Tính Chu Vi , diện tích Hình Tròn</h1>
+            <input type="text" placeholder="bán kính hình tròn" id="bankinh">
+            <div>
+                <button type="chuvi" onclick="gettinhChuVi()" style="margin-top:10px;">Chu Vi</button>
+                <button type="dientich" onclick="gettinhDienTich()" style="margin-top:10px;">Dien Tich</button>
+            </div>
+        </div>
+        <script >
+            function gettinhChuVi(){
+                let d = document.getElementById('bankinh').value;
+                let r = parseInt(d);
+                let C = r*2*3.14;
+                document.write("Chu Vi Hình Tròn = "+ C);
+
+            }
+
+            function gettinhDienTich(){
+                let d = document.getElementById('bankinh').value;
+                let r = parseInt(d);
+                let S = r*r*3.14;
+                document.write("Diện Tích Hình Tròn = "+ S);
+
+            }
+        </script>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <h1>Chuyển Đổi Tiền Tệ </h1>
+            <form >
+                <label>Amount</label>
+                <input type="text" id="amount">
+            </form>
+        </div>
+        <div class="box2">
+            <form >
+                <label >From Currency</label>
+                <select name="form" id="From">
+                    <option value="vietnam">VietNam</option>
+                    <option value="usd">USD</option>
+                </select>
+            </form>
+        </div>
+        <div class="box3">
+                <form >
+                    <label >To Currency</label>
+                    <select name="to" id="To">
+                        <option value="vietnam">VietNam</option>
+                        <option value="usd">USD</option>
+                    </select>
+                </form>
+            </div>
+            <div class="box4">
+                <button type="button" onclick="DoiTien()" >Convert</button>
+            </div>
+            <div class="hienthi">
+                    <h4>Result:</h4>
+                    <p id="ketqua"></p>
+                </div>
+    </div>
+    <script>
+   
+        let FromCurrency = "";
+        let ToCurrency = "";
+        let Result = "";
+        function DoiTien(){
+            let Amount = document.getElementById('amount').value;
+            FromCurrency = document.getElementById('From').value;
+            ToCurrency = document.getElementById('To').value;
+
+            if (Amount == "") {
+                alert("Nhập Số Tiền Cần Chuyển Đổi ");
+            } else {
+                if (FromCurrency == "vietnam" && ToCurrency == "usd") {
+                    Result = Amount/23000;
+                    document.getElementById('ketqua').innerHTML = Result ;
+                } else {
+                    if (FromCurrency == "usd" && ToCurrency == "vietnam") {
+                        
+                    Result = Amount*23000;
+                    document.getElementById('ketqua').innerHTML = Result ;
+                    } else {
+                        alert("Vui Lòng Kiểm Tra Lại ...")
+                    }
+                }
+            }
+        }
+    </script>
+    
+</body>
+</html>
