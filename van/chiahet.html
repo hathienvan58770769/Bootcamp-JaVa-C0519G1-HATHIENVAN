@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--Dùng hàm prompt() để nhập 2 số từ bàn phím, lưu vào 2 biến là a và b. 
+        Kiểm tra xem a có phải là bội số của b hay không (tức là a có chia hết cho b hay không). 
+        Hiển thị kết quả ra màn hình bằng cách sử dụng hàm alert().
+-->
+    <div class="container">
+        <div class="text">
+            <h1>Tìm Bội số</h1>
+            <input type="text" placeholder="nhập a" id="a">
+            <input type="text" placeholder="nhập b" id="b">
+            <div>
+                <button type="chiahet" onclick="promptsoChiaHet()" style="margin-top:10px;">Kết Quả </button>
+            </div>
+        </div>
+        <script >
+            function promptsoChiaHet(){
+                let c = document.getElementById('a').value;
+                let b = document.getElementById('b').value;
+                let w = parseInt(c);
+                let h = parseInt(b);
+                let ch = w%h;
+                alert(""+ch);
+
+            }
+        </script>
+
+    </div>
+</body>
+</html>

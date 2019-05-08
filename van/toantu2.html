@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*let message = prompt('');
+        if (message == 'Employee') {
+            alert('hello');
+        } else {
+            if (message == 'Director') {
+                alert('Greetings');
+            } else {
+                if (message == '') {
+                    alert('No login');
+                } else {
+                    alert('');
+                }
+            }
+        }*/
+        let login= prompt('login...', '');
+        let message = (login == 'Employee') ? 'hello' : (login == 'Director') ? 'Greetings' : (login == '') ? 'No login' : '';
+            alert(login);
+
+        </script>
+</body>
+</html>
