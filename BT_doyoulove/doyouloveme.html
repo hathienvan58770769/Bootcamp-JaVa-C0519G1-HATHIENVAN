@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" >
+        <h1>Do you love me ?</h1>
+        <button type="button" onclick="yesClick();" style="position: absolute; left: 50px;">Yes</button>
+        <button type="button" id="buttonNo" onmouseover="noClick()" style="position: absolute; left: 100px;">No</button>
+        <script>
+            function yesClick() {
+                alert(" Yes . You're right");
+            }
+            function noClick() {
+                let w = Math.round(Math.random() * window.innerWidth);
+                let h = Math.round(Math.random() * window.innerHeight);
+                document.getElementById('buttonNo').style.left= w + "px";
+                document.getElementById('buttonNo').style.top= h + "px";
+            }
+        </script>
+    </div>
+</body>
+</html>

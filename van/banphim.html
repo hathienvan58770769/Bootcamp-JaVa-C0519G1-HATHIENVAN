@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body onload="docReady();">
+    <div class="box_img">
+        <img id="nobita" src="https://vignette.wikia.nocookie.net/p__/images/6/65/Nobitatrue.jpg/revision/latest?cb=20180929112340&path-prefix=protagonist" alt="" width="100px" height="200px" style="position:absolute; left: 0; top: 0;">
+        <script>
+            function Top() {
+                let elmt = document.getElementById("nobita")
+                elmt.style.top = parseInt(elmt.style.top) - 10 + 'px';
+            }
+            function Bottom() {
+                let elmt = document.getElementById("nobita")
+                elmt.style.top = parseInt(elmt.style.top) + 10 + 'px';
+            }
+            function Left() {
+                let elmt = document.getElementById("nobita")
+                elmt.style.left = parseInt(elmt.style.left) - 10 + 'px';
+            }
+            function Right() {
+                let elmt = document.getElementById("nobita")
+                elmt.style.left = parseInt(elmt.style.left) + 10 + 'px';
+            }
+            function move(event) {
+                let evt = event.keyCode;
+                switch (evt) {
+                    case 37:
+                        Left();
+                        break;
+                    case 39:
+                        Right();
+                        break;
+                    case 38:
+                        Top();
+                        break;
+                    case 40:
+                        Bottom();
+                        break;
+                }
+            }
+            function docReady() {
+                window.addEventListener("keydown", move);
+            }
+        </script>
+
+    </div>
+</body>
+</html>
