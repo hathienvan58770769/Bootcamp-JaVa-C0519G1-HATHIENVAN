@@ -14,8 +14,6 @@
                 <label>Amount</label>
                 <input type="text" id="amount">
             </form>
-        </div>
-        <div class="box2">
             <form >
                 <label >From Currency</label>
                 <select name="form" id="From">
@@ -23,19 +21,18 @@
                     <option value="usd">USD</option>
                 </select>
             </form>
-        </div>
-        <div class="box3">
-                <form >
-                    <label >To Currency</label>
-                    <select name="to" id="To">
-                        <option value="vietnam">VietNam</option>
-                        <option value="usd">USD</option>
-                    </select>
-                </form>
-            </div>
+            <form >
+                <label >To Currency</label>
+                <select name="to" id="To">
+                    <option value="vietnam">VietNam</option>
+                    <option value="usd">USD</option>
+                </select>
+            </form>
             <div class="box4">
                 <button type="button" onclick="DoiTien()" >Convert</button>
             </div>
+        </div>
+            
             <div class="hienthi">
                     <h4>Result:</h4>
                     <p id="ketqua"></p>
@@ -56,12 +53,12 @@
             } else {
                 if (FromCurrency == "vietnam" && ToCurrency == "usd") {
                     Result = Amount/23000;
-                    document.getElementById('ketqua').innerHTML = Result ;
+                    document.getElementById('ketqua').innerHTML = Result +'USD';
                 } else {
                     if (FromCurrency == "usd" && ToCurrency == "vietnam") {
                         
                     Result = Amount*23000;
-                    document.getElementById('ketqua').innerHTML = Result ;
+                    document.getElementById('ketqua').innerHTML = Result +'VND';
                     } else {
                         alert("Vui Lòng Kiểm Tra Lại ...")
                     }
