@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ax+b=0
+        let a = parseFloat(prompt('nhập a', ''));
+        let b = parseFloat(prompt('nhập b', ''));
+        let x ;
+        if (a != 0) {
+            x = alert(' Phương trình có một nghiệm duy nhất '+ (-b)/a);
+        } else if( a == 0 ){
+            if (b==0) {
+               alert('Phương trình có vô số nghiệm ') ;
+            } else {
+                alert('Phương trình vô nghiệm ');
+            }
+        }
+
+    
+    </script>
+</body>
+</html>

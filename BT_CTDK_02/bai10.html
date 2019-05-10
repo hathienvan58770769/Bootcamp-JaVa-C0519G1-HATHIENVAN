@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* if(KWH>300) Tien=450000+(KWH-300)*3000;
+            else if(KWH>200) Tien=250000+(KWH-200)*2000;
+            else if(KWH>100) Tien=150000+(KWH-100)*1500;
+            else Tien=KWH*1000;
+        */
+        let kwh = parseFloat(prompt('nhập số kw/h :', ''));
+        let tiendien = alert('Tiền điên = '+(kwh>200) ? (250000+(kwh-200)*2000) : (kwh>100) ? (150000+(kwh-100)*1500) : kwh*1000 );
+
+    </script>
+</body>
+</html>

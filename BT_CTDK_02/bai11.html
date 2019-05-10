@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        Bậc 1: 4 triệu đồng/tháng 0%;
+        Bậc 2: Trên 4 - 6 triệu đồng/tháng: 5%;
+        Bậc 3: Trên 6 - 9 triệu đồng: 10%;
+        Bậc 4: Trên 9 - 14 triệu đồng/tháng: 15%;
+        Bậc 5: trên 14 - 24 triệu đồng/tháng: 20%;
+        Bậc 6: Trên 24 - 44 triệu đồng/tháng: 25%;
+        Bậc 7: Trên 44 - 84 triệu đồng/tháng: 30%;
+        Bậc 8: Trên 84 triệu đồng: 35%.
+        */
+        let money = parseFloat(prompt('nhập số tiền lương :', ''));
+        let tienthue;
+        
+        if (money>84000000){ 
+            tienthue = alert(' tiền thuế = ' + money*0.35);
+        } else if (money>44000000 && money<=84000000) {
+            tienthue = alert(' tiền thuế = ' + money*0.3 );
+        }else if (money>24000000 && money<=44000000) {
+            tienthue = alert(' tiền thuế = ' + money*0.25);
+        }else if (money>14000000 && money<=24000000) {
+            tienthue = alert(' tiền thuế = ' + money*0.2 );
+        }else if (money>9000000 && money<=14000000){
+            tienthue = alert(' tiền thuế = ' + money*0.15 );
+        }else if (money>6000000 && money<=9000000){
+            tienthue = alert(' tiền thuế = ' + money*0.1 );
+        }else if (money>4000000 && money<=6000000){
+            tienthue =  alert(' tiền thuế = ' + money*0.05 );
+        }else if (money>=0 && money<=4000000){
+            tienthue = alert(' tiền thuế = ' + money*0 );
+        }else{
+            alert('mời nhập lại ....');
+        }
+
+       
+
+    </script>
+</body>
+</html>

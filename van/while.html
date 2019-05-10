@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <h1>vong lap while</h1>
+        <p id="demo"></p>
+    </div>
+    <script>
+        let number = parseInt(prompt('enter a number :'));
+        let total = 0;
+        while (number != -1) {
+            number = parseInt(prompt('enter a number :'));
+            alert(number);
+            total += number;
+        }
+        document.getElementById('demo').innerHTML = total;
+    </script>
+</body>
+</html>

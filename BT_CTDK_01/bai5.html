@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let dkt = parseFloat(prompt('nhap diem bai kiem tra (max = 100d) :', ''));
+        let dgk = parseFloat(prompt('nhap diem giua ki (max = 100d):', ''));
+        let dck = parseFloat(prompt('nhap diem cuoi ki (max = 100d):', ''));
+        let diem = (dkt + dgk + dck)/3;
+        let xeploai = alert((diem>=75 && diem <= 100 )? ' A' :(diem>=60 && diem < 75 )? ' B' : (diem>=45 && diem < 60 )? ' C' : (diem>=35 && diem < 45 )? ' D' : 'E');
+        
+       
+    </script>
+</body>
+</html>

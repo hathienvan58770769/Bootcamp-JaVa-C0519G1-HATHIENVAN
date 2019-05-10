@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let minutes = prompt('nhap so phut :', '');
+        let phicodinh = 25000;
+        let phi ;
+        if(minutes>200)
+            phi=(minutes-200)*200+150*400+50*600;
+        else if(minutes>150)
+            phi=(minutes-50)*400+50*600;
+        else{
+            phi=minutes*600;
+            alert(phi+phicodinh);
+        }
+    
+    </script>
+</body>
+</html>

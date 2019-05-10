@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let money = parseFloat(prompt('nhập số tiền muốn vay (>=5000000):', ''));
+        let month = parseInt(prompt('nhập số tháng cho vay :', ''));
+        let interest;
+            if ( money >= 5000000 && month >= 1 ) {
+                interest = alert((money/month)*0.001);
+            } else if ( money >= 10000000 && month >= 1 ) {
+                interest = alert((money/month)*0.002);
+            }
+            else if ( money >= 20000000 && month >= 1 ) {
+                intereste = alert((money/month)*0.003);
+            }
+            else{
+                alert('mời nhập lại....');
+            }
+    </script>
+</body>
+</html>
