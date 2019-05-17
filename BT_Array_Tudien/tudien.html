@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <input type="text" id ="Tudien" placeholder="Nhập từ (tiếng Anh)...">
+        <button type="button" id="Search" onclick="Search()">Search</button>
+
+        <script>
+            let english = ['cat', 'house', 'dog'];
+            let vietnamese = ['mèo', 'nhà', 'chó'];
+            let count = 0;
+            function Search() {
+                let tudien = document.getElementById('Tudien').value;
+                for (let i = 0; i < english.length; i++) {
+                    if (tudien==english[i]) {
+                        alert(vietnamese[i]);
+                        count++;
+                        break;
+                    }
+                }
+                if (count==0) {
+                    alert('khong co')
+                }
+            }
+        </script>
+
+    </div>
+</body>
+</html>

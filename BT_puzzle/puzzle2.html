@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="change_img1()">
+        <img id="img1" name="1"
+            src="https://znews-photo.zadn.vn/w660/Uploaded/neg_rtlzofn/2018_08_13/bia_meo_cau_co.jpg"
+            style="height: 500px; width: 500px">
+    </button>
+    <button onclick="change_img2()">
+        <img id="img2" name="2"
+            src="http://alohal.com/wp-content/uploads/2018/07/1406273148-anh8.jpg"
+            style="height: 500px; width: 500px">
+    </button><br>
+    <p id="result"></p>
+    <script>
+        function change_img1() {
+            imgObj = document.getElementById('img1');
+            if (imgObj.src == "https://znews-photo.zadn.vn/w660/Uploaded/neg_rtlzofn/2018_08_13/bia_meo_cau_co.jpg") {
+                imgObj.src = "http://alohal.com/wp-content/uploads/2018/07/1406273148-anh8.jpg";
+                imgObj.name = "2";
+            }
+            else {
+            imgObj.src = "https://znews-photo.zadn.vn/w660/Uploaded/neg_rtlzofn/2018_08_13/bia_meo_cau_co.jpg";
+                imgObj.name = "1";
+            }
+            imgObj1 = document.getElementById('img1').name;
+            imgObj2 = document.getElementById('img2').name;
+            if (imgObj1 == imgObj2) {
+                document.getElementById("result").innerHTML = "the same image";
+            } else document.getElementById("result").innerHTML = "";
+        }
+        function change_img2() {
+            imgObj = document.getElementById('img2');
+            if (imgObj.src == "https://znews-photo.zadn.vn/w660/Uploaded/neg_rtlzofn/2018_08_13/bia_meo_cau_co.jpg") {
+                imgObj.src = "http://alohal.com/wp-content/uploads/2018/07/1406273148-anh8.jpg";
+                imgObj.name = "2";
+            }
+            else {
+            imgObj.src = "https://znews-photo.zadn.vn/w660/Uploaded/neg_rtlzofn/2018_08_13/bia_meo_cau_co.jpg";
+                imgObj.name = "1";
+            }
+            imgObj1 = document.getElementById('img1').name;
+            imgObj2 = document.getElementById('img2').name;
+            if (imgObj1 == imgObj2) {
+                document.getElementById("result").innerHTML = "the same image";
+            } else document.getElementById("result").innerHTML = "";
+        }
+    </script>
+</body>
+
+</html>

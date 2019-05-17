@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="boxcaro">
+        <h1>Caro Game Simple</h1>
+        <p id="caro"></p>
+        <button type="submit" id="change" onclick="changeValue()">Change Value</button>
+    </div>
+    <script>
+        let carogame = document.getElementById('caro');
+        let array = [];
+        let data = "";
+        let i =0;
+        let j = 0;
+        while(i<5){
+            i++;
+            array[i] = [0, 0, 0, 0, 0 ];
+        }
+            while(i<5){
+            data+= "<br/>";
+            while (j<5) {
+                j++;
+                data+= array[i][j] + '&#160;&#160;';
+            
+            }
+            carogame.innerHTML = '<br/>' + data;
+        }
+        function changeValue() {
+            let x = prompt('X:', '');
+            let y = prompt('Y:','');
+            data = "";
+            array[x][y] = "x";
+            let i = 0;
+            let j = 0;
+            while (i<5) {
+                i++;
+                data += '<br/>';
+                while (j<5) {
+                    j++;
+                    data+= array[i][j] + '&#160;&#160;&#160;&#160;';
+
+                }
+            }
+        
+        }
+        carogame.innerHTML = '<br/>' + data;
+    </script>
+</body>
+</html>

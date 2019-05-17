@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <h3>Tic tac Toe</h3>
+        <p id="tictactoe" ></p>
+        <button type="button" onclick="changeValue1()">X</button>
+        <button type="button" onclick="changeValue2()">O</button>
+        <script>
+            let tictactoe = document.getElementById('tictactoe');
+            let data = "";
+            let array = [];
+
+            for (let i = 0; i < 5; i++) {
+                array[i] = [' . ' , ' . ' , ' . ' , ' . ' , ' . '];  
+            }
+            for (let i = 0; i < 5; i++) {
+                data += '<br/>';
+                for (let j = 0; j < 5; j++) {
+                    data += array[i][j] + '&#160;&#160;';
+                }
+            }
+            tictactoe.innerHTML = '<hr/>' + data;
+            function changeValue1() {
+                let positionX = prompt('x:');
+                let positionY = prompt('y:');
+                data = "";
+                let x = positionX-1;
+                let y = positionY-1;
+                array[x][y] = "X";
+                
+                for (let i = 0; i < 5; i++) {
+                    data += '<br/>';
+                    for (let j = 0; j < 5; j++) {
+                        data += array[i][j] + '&#160;&#160;&#160;&#160;';  
+                    }
+                }
+                tictactoe.innerHTML = '<hr/>' + data;
+                for(let i = 0;i<5;i++) {
+                  for(let j=0;j<5;j++) {
+                    if (array[i][j]=="X") {
+                        if (array[i][j+1]=="X" && array[i][j+2]=="X") {
+                            alert('X win');
+                        }
+                    else if (array[i+1][j]=="X" && array[i+2][j]=="X") {
+                            alert('X win');
+                        }
+                    else if (array[i+1][j+1]=="X" && array[i+2][j+2]=="X") {
+                            alert('X win');
+                        }
+                    else{
+                    console.log('');
+                        }
+                    }
+                }
+            }
+        }
+            function changeValue2() {
+                let positionX = prompt('x:');
+                let positionY = prompt('y:');
+                data = "";
+                let x = positionX-1;
+                let y = positionY-1;
+                array[x][y] = "O";
+                for (let i = 0; i < 5; i++) {
+                    data += '<br/>';
+                    for (let j = 0; j < 5; j++) {
+                        data += array[i][j] + '&#160;&#160;&#160;&#160;';  
+                    }
+                }
+                tictactoe.innerHTML = '<hr/>' + data;
+                for(let i = 0;i<5;i++) {
+                  for(let j=0;j<5;j++) {
+                    if (array[i][j]=="O") {
+                        if (array[i][j+1]=="O" && array[i][j+2]=="O") {
+                            alert('O win');
+                        }
+                    else if (array[i+1][j]=="O" && array[i+2][j]=="O") {
+                            alert('O win');
+                        }
+                    else if (array[i+1][j+1]=="O" && array[i+2][j+2]=="O") {
+                            alert('O win');
+                        }
+                    else{
+                    console.log('');
+                        }
+                    }
+                }
+            }
+        }
+        </script>
+
+        
+</body>
+</html>

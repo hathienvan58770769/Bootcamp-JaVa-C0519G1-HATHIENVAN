@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Hiển thị ra 20 số trong dãy fibonacci đầu tiên.
+    Quy luật của dãy số Fibonacci: số tiếp theo bằng tổng của 2 số trước, 
+    2 số đầu tiên của dãy số là 0, 1. Ví dụ: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, …
+    --Có 2 cách để viết chương trình dãy số Fibonacci trong java
+    Tính dãy số Fibonacci trong java không dùng phương pháp đệ quy
+    Tính dãy số Fibonacci trong java sử dụng phương pháp đệ quy
+    -->
+    <script>
+        
+            let c;
+            let a = 0;
+            let b = 1;
+            document.write(a + ' ');
+            document.write(b + ' ');
+            for (let i = 0; i < 20; i++) {
+                c = a+b;
+                a = b;
+                b = c;
+                document.write( c + ' ');   
+            }
+    </script>
+    
+</body>
+</html>

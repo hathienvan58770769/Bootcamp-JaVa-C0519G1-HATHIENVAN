@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = prompt();
+        let string = number.toString();
+        let result = [string[0]];
+        let i = 1;
+        while (i<string.length) {
+            i++;
+            if ((string[i]%2===0)&&(string[i-1]%2===0)) {
+                result.push('-',string[i]);
+            } else {
+                result.push(string[i]);
+            }
+        }
+        document.write(result.join(''));
+    </script>
+</body>
+</html>

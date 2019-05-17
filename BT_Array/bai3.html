@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let string = prompt('');
+        let upper = string.toUpperCase();
+        let lower = upper.toLowerCase();
+        let result = [];
+        let i = 0;
+        while (i<string.length) {
+            i++;
+            if (upper.includes(string[i])) {
+                result.push(string[i].toLowerCase());
+            } else if(lower.includes(string[i])){
+                result.push(string[i].toUpperCase());
+            }else{
+                result.push(string[i]);
+            }
+        }
+        document.write(result.join(''));
+    
+    </script>
+</body>
+</html>

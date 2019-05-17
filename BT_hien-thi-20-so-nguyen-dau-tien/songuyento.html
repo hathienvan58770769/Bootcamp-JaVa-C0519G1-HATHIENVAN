@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let maxPrime =  parseInt(prompt('Enter numbers:', ''));
+        let count=0 , n,kt=0;
+        for ( let number = 2 ;; number++) {
+            if(count<maxPrime){
+                for(let n=2;n<number;n++){
+                //Kiểm tra xem N có phải là số nguyên tố không. Nếu N là số nguyên tố 
+                //thì in ra giá trị của N và tăng giá trị của count lên 1
+                //Giá trị của N tăng lên 1 để kiểm tra số tiếp theo
+                if(number%n == 0 ){
+                    kt++;
+                }
+               }
+            if(kt==0) {
+                document.write(number + ' là số nguyên tố' + '<br/>');
+                count++
+                
+            }
+            kt=0;
+            }
+            else{
+                break;
+            }
+        
+        }
+    </script>
+</body>
+</html>

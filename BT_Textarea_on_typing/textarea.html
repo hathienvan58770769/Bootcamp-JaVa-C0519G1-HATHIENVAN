@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>FAKE TEXT AREA</title>
+</head>
+
+<body>
+   <br><br>
+   <div style="width:800px;text-align:center;margin: auto;">
+       <textarea id="txtArea" cols="100" rows="5" onkeydown="fakeText();"></textarea>
+   </div>
+   <script>
+       var Str = "TÔI LÀ MỘT ĐỨA NGỐC";
+       var showStr = "";
+       var n = "";
+       function fakeText() {
+           if (typeof fakeText.counter == 'undefined') {
+               fakeText.counter = 0;
+           }
+           if (fakeText.counter == 0) {
+               showStr = Str[fakeText.counter];
+           } else {
+               showStr += Str[fakeText.counter];
+           }
+           if (fakeText.counter == Str.length) {
+               showStr = "";
+               fakeText.counter = -1;
+           }
+           document.getElementById("txtArea").value=showStr;
+           fakeText.counter++;
+       }
+   </script>
+</body>
+
+</html>

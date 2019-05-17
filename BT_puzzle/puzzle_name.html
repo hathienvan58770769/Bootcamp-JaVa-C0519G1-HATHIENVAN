@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <img src="https://znews-photo.zadn.vn/w660/Uploaded/neg_rtlzofn/2018_08_13/bia_meo_cau_co.jpg" 
+        onclick="getChange01()" id="img1" name="01" width="300px" height="300px">
+   
+        <img src="http://alohal.com/wp-content/uploads/2018/07/1406273148-anh8.jpg" 
+        onclick="getChange02()" id="img2" name="02" width="300px" height="300px">
+    
+        <img src="https://anh.24h.com.vn/upload/2-2013/images/2013-05-25/1369447800-anh-dong-vat-dep2.jpg" 
+        onclick="getChange03()" id="img3" name="03" width="300px" height="300px">
+   
+        <img src="http://tuelinh.vn/js/libs/kcfinder/upload/images/ca-ngua.jpg"
+         onclick="getChange04()" id="img4" name="04" width="300px" height="300px">
+
+         <p id = "demo"></p>
+         <script>
+             function getChange01() {
+                 let imgs = document.getElementsByName('01');
+                 switch (imgs.name) {
+                     case '01':
+                         imgs.src = "https://znews-photo.zadn.vn/w660/Uploaded/neg_rtlzofn/2018_08_13/bia_meo_cau_co.jpg";
+                        
+                         break;
+                     case '02':
+                         imgs.src = "http://alohal.com/wp-content/uploads/2018/07/1406273148-anh8.jpg";
+               
+                         break;
+                    case '03':
+                         imgs.src = "https://anh.24h.com.vn/upload/2-2013/images/2013-05-25/1369447800-anh-dong-vat-dep2.jpg";
+             
+                         break;
+                    case '04':
+                         imgs.src = "http://tuelinh.vn/js/libs/kcfinder/upload/images/ca-ngua.jpg";
+                 
+                         break;
+                     default:
+                         break;
+                 } 
+                image1 = document.getElementById('img1').name;
+                image2 = document.getElementById('img2').name;
+                image3 = document.getElementById('img3').name;
+                image4 = document.getElementById('img4').name;
+            if (image1 == image2 && image1 == image3 && image1 == image4) {
+                document.getElementById('demo').innerHTML = "the same image";
+            } else document.getElementById("demo").innerHTML = " ";
+        }
+             
+         </script>
+
+</body>
+</html>

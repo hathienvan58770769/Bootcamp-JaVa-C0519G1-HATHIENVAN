@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--thêm vào các phần tử trong một mảng và hiển thị chúng.-->
+    <div class="box">
+        <h1>Sample Screen</h1>
+        <input type="text" id="value"  >
+        <button type="submit" id="add" onclick="getAdd()">Add</button>
+        <button type="submit" id="display" onclick="getDisplay()">Display</button>
+        <p id="demo"></p>
+    </div>
+    
+    <script>
+        let x = 0;
+        let array = Array();
+        function getAdd() {
+            array[x] =  document.getElementById('value').value;
+            alert("Element:" + array[x] + ' Added at index ' + x);
+            x++;
+            document.getElementById('value').value = "";
+        }
+        function getDisplay() {
+            let y = '<hr/>';
+            for (let i = 0; i < array.length; i++) {
+                y = y +"Element "+ i + '=' + array[i] +'<br/>';
+                
+            }
+           
+            document.getElementById('demo').innerHTML = y;
+        }
+    </script>
+</body>
+</html>

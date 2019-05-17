@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+         In tam giác vuông. Các góc vuông nằm ở các vị trí khác nhau '*'
+
+        for (int i = 0; i < 5; i++){ 
+            for (int j = 0; j < 10; j++){
+            console.log("*");
+            }
+        console.log(); 
+        }
+
+    -->
+    <script>
+    let h = parseInt(prompt('nhap chieu cao tam giac vuong:'));
+    let q = 0 ;
+    while (h>0) {
+        for (let i = 0; i<h; i++){
+            document.write( '*');
+        }
+        for (let k = 0; k <= q; k++){
+            document.write(' ');
+        }
+            h -- ;
+            q ++;
+            document.write('<br/> ');
+        }
+    </script>
+
+</body>
+</html>
