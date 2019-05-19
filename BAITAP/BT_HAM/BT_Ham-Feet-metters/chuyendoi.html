@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        
+        
+        <form action="" name="change">
+            
+            <input type="number" id="inputNumber" oninput="changeNumber(this.value)" onchange="changeNumber(this.value)">
+            <p id="feetToMeter"></p>
+            <br/>
+            <p id="meterToFeet"></p>
+        </form>
+
+        <script>
+            function changeNumber(number) {
+                number = parseFloat(number);
+                document.getElementById('feetToMeter').innerHTML =" feet To Meter : " + (0.305*number) + " metters ";
+                document.getElementById('meterToFeet').innerHTML =" meter To Feet : " + (3.279*number) + " feets ";
+            }
+        </script>
+
+</body>
+</html>
