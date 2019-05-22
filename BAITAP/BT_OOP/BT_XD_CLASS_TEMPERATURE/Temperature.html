@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Temperature = function(valueCelcius) {
+            this.valueCelcius = valueCelcius;
+            
+            this.cChangeF = function(){
+                return this.valueCelcius*1.8+32;
+            }
+            this.cChangeKavin  = function(){
+                return this.valueCelcius+273.15;
+            }
+        }
+        let getTemperature = function() {
+            let temperature = new Temperature(25);
+            document.write('Độ F : ' + temperature.cChangeF() + '<br/>');
+            document.write('Dộ Kavin : ' + temperature.cChangeKavin());
+        }
+        getTemperature();
+    </script>
+</body>
+</html>

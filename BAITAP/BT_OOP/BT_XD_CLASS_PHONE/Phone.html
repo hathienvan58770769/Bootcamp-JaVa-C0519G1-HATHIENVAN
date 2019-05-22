@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Battery = function() {
+            this.statusBattery = 100;
+            
+            this.getStatusBattery = function() {
+                return this.statusBattery;
+            }
+            
+            this.getChargeBattery = function() {
+                this.statusBattery = 100;
+            }
+        }
+
+        let Mobile = function(battery) {
+            this.battery = battery;
+            this.draftMessage = [];
+            this.incomingMessage = [];
+            this.sentMessage = [];
+            this.statusBattery;
+
+            this.checkStatusOnOff = function() {
+                return this.statusBattery == true;
+            }
+
+            this.receiveMessage = function(message) {
+                if (this.checkStatusOnOff()==true) {
+                    this.incomingMessage.push(message);
+                    this.battery.statusBattery--;
+                }
+            }
+
+            this.sendMessage = function(message, Mobile) {
+                if (this.checkStatusOnOff()==true) {
+
+                    Mobile.receiveMessage(message);
+                    this.battery.statusBattery--;
+                }
+            }
+
+            this.saveWritingMessage = function(message) {
+                if (this.checkStatusOnOff()==true) {
+                    this.drafMessage.push(message);
+                    this.battery.statusBattery--;
+                }
+            }
+
+            this.checkSentMessage = function(message) {
+                if (this.checkStatusOnOff()==true) {
+                    return this.sentMessage.pop(message);
+                    this.battery.statusBattery--;
+                }
+            }
+            this.checkMessage = function()
+            {
+                if(this.checkStatusOnOff()==true)
+                {
+                    
+                    this.battery.statusBattery--;
+                    return this.incomingMessage.pop();
+                    
+                }
+            }
+            this.setStatusBattery = function(statusBattery) {
+                this.statusBattery = statusBattery;
+            }
+
+            this.turnOn = function()
+            {
+                this.statusBattery = true;
+                this.battery.statusBattery--;
+            }
+            this.turnOff = function()
+            {
+                this.statusBattery = false;
+                this.battery.statusBattery--;
+            }
+            this.chargeBattery = function()
+            {
+                this.battery.getChargeBattery();
+            }
+        }
+
+        let myBattery = new Battery();
+        let iphone = new Mobile(myBattery);
+        let nokia = new Mobile(myBattery);
+        iphone.turnOn();
+        nokia.turnOn();
+        nokia.sendMessage("hi....", iphone);
+        document.write(iphone.checkMessage());
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="1240px" height="580px" style="border: 1px solid black;"></canvas>
+    <script>
+        let Circle = function(radius) {
+            this.radius = radius;
+        }
+        let createCircle = function(){
+            let canvas = document.getElementById('myCanvas');
+            let canvastxt = canvas.getContext("2d");
+            let circle = new Circle(80);
+            canvastxt.beginPath();
+            canvastxt.arc(500, 500, circle.radius, 0, 2*Math.PI);
+            canvastxt.fill();
+        }
+        createCircle();
+        /*
+        function Circle(x, y, radius){
+            this.x = x;
+            this.y = y;
+            this.radius = radius;
+            }
+
+        {
+                var ctx = document.getElementById("myCanvas").getContext("2d");
+                var circle= new Circle(500, 500, 80);
+                ctx.beginPath();
+                ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
+                ctx.fill();
+            }
+
+            createCircle();
+            */
+    </script>
+</body>
+</html>

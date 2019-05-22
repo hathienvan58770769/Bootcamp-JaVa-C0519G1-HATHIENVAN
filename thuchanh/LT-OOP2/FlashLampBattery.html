@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Battery = function() {
+            this.getEnergy = function() {
+                return this.energy;
+            }
+            this.setEnergy = function(energy) {
+                this.energy = energy;
+            }
+            this.decreaseEnergy = function() {
+                if (this.energy > 0) {
+                    this.energy--;
+                }
+            }
+        }
+        let FlashLamp = function() {
+            this.getBatteryInFo = function() {
+                return this.battery.getEnergy();
+            }
+            this.setBattery = function(battery) {
+                this.battery = battery;
+            }
+            this.light = function() {
+                if (this.statusBattery==true) {
+                    alert("Lighting");
+                } else {
+                    alert("Not Lighting");
+                }
+            }
+            this.turnOn = function () {
+                this.statusBattery = true;
+            }
+            this.turnOff = function () {
+                this.statusBattery = false;
+            }
+        }
+        let battery = new Battery();
+        battery.setEnergy(0);
+
+        let flashlamp = new FlashLamp();
+        flashlamp.setBattery(battery);
+
+        document.write("Battery info:" + flashlamp.getBatteryInFo() + "<br/>");
+        flashlamp.light();
+
+        document.write("Turn on<br/>")
+        flashlamp.turnOn();
+        flashlamp.light();
+        document.write("Battery info:" + flashlamp.getBatteryInFo() + "<br/>");
+
+        document.write("Turn off<br/>")
+        flashlamp.turnOff();
+        flashlamp.light();
+    </script>
+</body>
+</html>
