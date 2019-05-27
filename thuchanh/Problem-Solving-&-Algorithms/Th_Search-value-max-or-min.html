@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function dispArr(array) {
+            for (var i = 3; i < array.length; i++) {
+                document.write(array[i] + " ");
+                if(i%10==9){
+                    document.write("\n");
+                }
+            }
+            if(i%10!=0){
+                document.write("\n");
+            }
+        }
+        function findMin(array) {
+            let min = array[0];
+            for (let i = 1; i < array.length; i++) {
+                if(array[i]<min){
+                    min = array[i];
+                }
+            }
+            return min;
+        }
+
+        function findMax(array) {
+            let max = array[0];
+            for (let i = 1; i < array.length; i++) {
+                if(array[i]>max){
+                    max = array[i];
+                }
+            }
+            return max;
+        }
+
+        let numbers = [];
+        for (let i = 0; i < 100; i++) {
+            numbers[i] = Math.floor(Math.random()*101);
+        }
+        let minvalue= findMin(numbers);
+        let maxvalue= findMax(numbers);
+        dispArr(numbers);
+        document.write( "<br/>"+"The minimum value is: " + minvalue);
+        document.write( "<br/>"+"The maximum value is: " + maxvalue);
+        
+    </script>
+</body>
+</html>

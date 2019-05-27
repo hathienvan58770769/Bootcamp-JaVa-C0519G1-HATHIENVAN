@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function is_usZipCode(string){
+            regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
+            if (regexp.test(string)) {
+                return true;
+            }
+            return false;
+        }
+        let zipcode = "03201 - 2150";
+        document.write(is_usZipCode(zipcode)+"<br/>");
+        zipcode = "98222";
+        document.write(is_usZipCode(zipcode)+"<br/>");
+        zipcode = "09345";
+        document.write(is_usZipCode(zipcode)+"<br/>");
+    </script>
+</body>
+</html>

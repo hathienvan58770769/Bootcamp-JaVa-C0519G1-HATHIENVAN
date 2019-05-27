@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="game"></div>
+    <script>
+        let Hero = function (image, top, left,  size, speed) {
+            this.image = image;
+            this.top = top;
+            this.left = left;
+            this.size = size;
+            this.speed = speed;
+
+            this.moveLeft = function () {
+                this.left -= this.speed;
+            }
+            this.moveRight = function () {
+                this.left += this.speed;
+            }
+            this.moveUp = function () {
+                this.top -= this.speed;
+            }
+            this.moveDown = function () {
+                this.top += this.speed;
+            }
+            this.getHero = function () {
+                return '<img width="' + this.size + '"' + 'height="' + this.size + '"' + 'src="' + this.image + '"' + 'style="top: ' + this.top + 'px; left: ' + this.left + 'px; position: absolute;" />';
+            }
+        }
+
+        let hero = new Hero('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxYgySy5oaXJKeuaYi9IAhNApxAuCERYtTuWB42qfgYCRYka-o', 0, 0,  150, 20);
+        let Starts = function () {
+            if (hero.left < window.innerWidth - hero.size && hero.top==0) {
+                hero.moveRight();
+            } 
+            else if (hero.left >= window.innerWidth - hero.size && hero.top<window.innerHeight - hero.size ) {
+                hero.moveDown();
+            }
+            else if (hero.top >= window.innerHeight - hero.size && hero.left>=20 ) {
+                hero.moveLeft();
+            }
+            else {
+                hero.moveUp();
+            }
+            document.getElementById('game').innerHTML = hero.getHero();
+            setTimeout(Starts, 400);
+        }
+        Starts();
+    </script>
+</body>
+</html>

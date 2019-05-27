@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function dispArr(array) {
+            for (var i = 0; i < array.length; i++) {
+                document.write(array[i] + " ");
+                if(i%10==9){
+                    document.write("\n");
+                }
+            }
+            if(i%10!=0){
+                document.write("\n");
+            }
+        }
+        function binSearch(array, data) {
+            for (var i = 0; i < array.length; ++i) {
+                if (array[i] == data) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        
+        var count=0;
+        let numbers = [];
+        let val = parseInt(prompt('Enter a value to search for :', ));
+        let position = 0;
+        for (let i = 0; i < 50; i++) {
+            numbers[i] = Math.floor(Math.random() * 101);
+        }
+        numbers.sort();
+        dispArr(numbers);
+        for(let i=0;i<numbers.length;i++){
+            if (numbers[i]==val) {
+                position = i
+                break;
+            } 
+            
+        }
+        for(let i=0;i<numbers.length;i++){
+            if (numbers[i]==val) {
+               count++;
+            } 
+            
+        }
+
+        document.write("<br/> Found " + val + " at  position " + position + " occurrences of " + count);
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <input type="text" name="nameclass" id="nameclass" placeholder="nhập tên lớp">
+        <button type="submit" name="check" onclick="checkClass()">Check Class</button>
+        <script>
+            function checkClass() {
+                let nameClass = document.getElementById('nameclass');
+    
+                let classRegexp=/^([ACP]{1})+([0-9]{4})+([GHIKLM]{1})+$/;
+                if (classRegexp.test(nameClass.value)) {
+                    alert('ok! tên lớp hợp lệ .')
+                    return true;
+                } else {
+                    alert('Hãy nhập lại tên lớp hợp lệ');
+                    return false;
+                }
+            }
+            //Bắt đầu bằng một ký tự chữ hoa C hoặc A hoặc P
+            //Không chứa các ký tự đặc biệt
+            //Theo sau ký tự bắt đầu là 4 ký tự số 
+            //Kết thúc phải là 1 trong những ký tự chữ hoa sau: G, H, I, K, L, M
+        </script>
+
+</body>
+</html>

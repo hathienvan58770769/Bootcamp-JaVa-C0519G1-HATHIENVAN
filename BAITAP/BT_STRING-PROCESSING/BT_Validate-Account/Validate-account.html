@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <input type="text" name="account" id="account" placeholder="nhập account">
+        <button type="submit" name="check" onclick="checkAccount()">Check Account</button>
+        <script>
+            function checkAccount() {
+                let account = document.getElementById('account');
+    
+                let accountRegexp=/^[_a-z0-9]{6,}$/;
+                if (accountRegexp.test(account.value)) {
+                    alert('ok! account hợp lệ .')
+                    return true;
+                } else {
+                    alert('Hãy nhập lại account hợp lệ');
+                    return false;
+                }
+            }
+        </script>
+</body>
+</html>

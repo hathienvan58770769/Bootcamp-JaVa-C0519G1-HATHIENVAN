@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <input type="text" name="phonenumbers" id="phonenumbers" placeholder="nhập số điện thoại">
+        <button type="submit" name="check" onclick="checkPhoneNumbers()">Check Phone Numbers</button>
+        <script>
+            function checkPhoneNumbers() {
+                let phoneNumbers = document.getElementById('phonenumbers');
+                let phoneNumbersRegexp=/^([(]{1})+([84]{2})+([)]{1})+([-(]{2})+([0-9]{10})+([)]{1})+$/;
+                if (phoneNumbersRegexp.test(phoneNumbers.value)) {
+                    alert('ok! số điện thoại hợp lệ .')
+                    return true;
+                } else {
+                    alert('Hãy nhập lại số điện thoại hợp lệ');
+                    return false;
+                }
+            }
+        </script>
+</body>
+</html>
