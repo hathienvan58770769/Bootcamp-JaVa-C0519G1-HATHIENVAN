@@ -13,7 +13,7 @@
             function checkAccount() {
                 let account = document.getElementById('account');
     
-                let accountRegexp=/^[_a-z0-9]{6,}$/;
+                let accountRegexp=/^[_a-z0-9]{6}$/;
                 if (accountRegexp.test(account.value)) {
                     alert('ok! account hợp lệ .')
                     return true;

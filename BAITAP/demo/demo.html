@@ -1,43 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-    <body>
-         <script>
-            function seqSearch(arr, data) {
-                for (var i = 0; i < arr.length; ++i) {
-                    if (arr[i] == data) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-            function dispArr(arr) {
-                for (var i = 0; i < arr.length; ++i) {
-                    putstr(arr[i] + " ");
-                    if(i%10==9){
-                        putstr("\n");
-                    }
-                }
-                if(i%10!=0){
-                    putstr("\n");
-                }
-            } //end function dispArr()
-            var nums = [];
-            for(var i=0; i<100; ++i){
-                nums[i] = Math.floor(Math.random() * 101);
-            }
-            dispArr(nums);
-            putstr("Enter a number to search for: ");
-            var num = parseInt(readline());
-            print();
-            if (seqSearch(nums, num)) {
-                print(num + " is in the array.");
-            }
-            else {
-                print(num + " is not in the array.");
-            }
-            print();
-            dispArr(nums); 
-         </script>
-       
-    </body>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Online Caro by Viet Anh</title>
+	<script type="text/javascript" src="demo.js"></script>
+	<link rel="stylesheet" type="text/css" href="demo.css">
+</head>
+<body>
+<header>
+	<!-- <img id="logo" src="img/logo.png"> -->
+	<h1>Online Caro</h1>
+</header>
+<div id="container">
+	<div id="dora-talking">
+		<img id="dora-avt" src="https://raw.githubusercontent.com/vietanhdev/van-caro-online/master/img/doraemon.png">
+		<div id="talking">
+			Xin chào! Tôi là Doraemon.<br>
+			Tôi sẽ chơi Caro cùng bạn.
+		</div>
+		<img id="setup" src="https://raw.githubusercontent.com/vietanhdev/van-caro-online/master/img/setup.png">
+	</div>
+	<div id="board">
+		<table id="board-table">
+			<tbody>
+			<script type="text/javascript">
+				for(var i=0; i < noOfRow; i++){
+					document.write('<tr>');
+					for(var j=0; j < noOfCol; j++){
+						document.write('<td class="square" id="s'+String('00' + i).slice(-2)+String('00' + j).slice(-2)+'" onclick="sqClick(' + i + ',' + j + ' )"></td>');
+					}
+					document.write('</tr>');
+				}
+			</script>
+			</tbody>
+		</table>
+	</div>
+	<div id="board-cpanel">
+		<button class="btn1 btn-med" id="newGame" onclick="newGame()">Ván mới</button>
+		<button class="btn1 btn-med" id="resign" onclick="resign()">Chịu thua</button>
+		<button class="btn1 btn-med" id="undo" onclick="undo()">Xin đi lại</button>
+	</div>
+</div>
+<footer>
+	<center><p>Online Caro by </p></center>
+</footer>
+</body>
 </html>

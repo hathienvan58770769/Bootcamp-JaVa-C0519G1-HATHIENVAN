@@ -13,7 +13,8 @@
         function checkEmail() {
             let email = document.getElementById('email');
 
-            let emailRegexp=/^[A-Za-z0-9_\.\-]+\@(([A-Za-z0-9])+\.)+([A-Za-z0-9]{2,4})+$/;
+            let emailRegexp=/^[A-Za-z0-9]+\@(([A-Za-z0-9])+\.)([A-Za-z0-9]{2,4})$/;
+            
             if (emailRegexp.test(email.value)) {
                 alert('ok! email hợp lệ .')
                 return true;

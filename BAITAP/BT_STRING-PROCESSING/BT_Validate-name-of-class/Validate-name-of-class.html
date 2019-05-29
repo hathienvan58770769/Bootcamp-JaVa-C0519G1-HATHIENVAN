@@ -11,10 +11,10 @@
         <button type="submit" name="check" onclick="checkClass()">Check Class</button>
         <script>
             function checkClass() {
-                let nameClass = document.getElementById('nameclass');
+                let nameClass = document.getElementById('nameclass').value;
     
-                let classRegexp=/^([ACP]{1})+([0-9]{4})+([GHIKLM]{1})+$/;
-                if (classRegexp.test(nameClass.value)) {
+                let classRegexp=/^([ACP]{1})([0-9]{4})([GHIKLM]{1})$/;
+                if (classRegexp.test(nameClass)) {
                     alert('ok! tên lớp hợp lệ .')
                     return true;
                 } else {

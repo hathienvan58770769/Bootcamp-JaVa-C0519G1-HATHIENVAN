@@ -7,12 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-        <input type="text" name="phonenumbers" id="phonenumbers" placeholder="nhập số điện thoại">
+        <input type="text" name="phonenumbers" id="phonenumbers" placeholder="(84)-(0********)">
         <button type="submit" name="check" onclick="checkPhoneNumbers()">Check Phone Numbers</button>
         <script>
             function checkPhoneNumbers() {
                 let phoneNumbers = document.getElementById('phonenumbers');
-                let phoneNumbersRegexp=/^([(]{1})+([84]{2})+([)]{1})+([-(]{2})+([0-9]{10})+([)]{1})+$/;
+                let phoneNumbersRegexp=/^[(][8][4][)][-][(][0]([0-9]{9})[)]$/;
                 if (phoneNumbersRegexp.test(phoneNumbers.value)) {
                     alert('ok! số điện thoại hợp lệ .')
                     return true;

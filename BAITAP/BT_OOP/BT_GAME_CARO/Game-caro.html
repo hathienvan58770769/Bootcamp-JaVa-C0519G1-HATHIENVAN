@@ -12,6 +12,15 @@
     <div id="game-board"></div>
     </center>
     <script>
+        function gameCaro(myId, myOnclick, left, top) {
+            this.myId = myId;
+            this.myOnclick = myOnclick;
+            this.left = left;
+            this.top = top;
+            this.getGameCaro = function () {
+                return '<div id="cell-'+this.myId+'" onclick="play('+this.myOnclick+')" class="cell" style="position: absolute; width:40px; height:40px; left:'+this.left+'px; top:'+this.top+'px; line-height: 40px;"></div>';
+            }
+        }
         
     </script>
 </body>

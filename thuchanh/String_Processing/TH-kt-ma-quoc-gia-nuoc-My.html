@@ -10,13 +10,13 @@
     <script>
         
         function is_usZipCode(string){
-            regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
+            regexp = /^[0-9]{5} (?:-[0-9]{4}) ?$/;
             if (regexp.test(string)) {
                 return true;
             }
             return false;
         }
-        let zipcode = "03201 - 2150";
+        let zipcode = "03201-2150";
         document.write(is_usZipCode(zipcode)+"<br/>");
         zipcode = "98222";
         document.write(is_usZipCode(zipcode)+"<br/>");
