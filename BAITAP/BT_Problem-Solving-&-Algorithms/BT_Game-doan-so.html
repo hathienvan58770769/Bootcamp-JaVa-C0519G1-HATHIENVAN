@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function linearSearch(value, arr){
+            for (var i = 0; i < arr.length; ++i) {
+                if (arr[i]=== value){
+                    alert(arr[i]);
+                    return i;
+                }
+            }
+            return false;
+        }
+        function binarySearch(value, arr) {
+            let min = 0;
+            let mid = 0;
+            let max = arr.length-1;
+            while(min<=max){
+                mid = Math.floor((min + max)/2);
+                if (arr[mid] == value) {
+                    return arr[mid];
+                } else if(arr[mid] < value ){
+                    min = mid +1;
+                }else{
+                    max = mid - 1;
+                }
+            }
+            return false;
+        }
+        let numbers = [1, 25, 50, 75, 82, 84, 88, 100];
+        let linear = linearSearch(50, numbers);
+        let binary = binarySearch(100, numbers);
+        alert(binary);
+
+    </script>
+</body>
+</html>

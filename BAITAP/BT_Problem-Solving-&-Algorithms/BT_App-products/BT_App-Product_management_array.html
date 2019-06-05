@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            h1 ,p{
+                color: pink;
+            }
+            table, th, td {
+                border: 1px solid pink;
+                width: 300px;
+            }
+            
+            </style>
+            <script src="App-product.js"></script>
+</head>
+<body>
+    <center>
+
+    <h1>Hiện thị danh sách sản phẩm</h1>
+
+    <table>
+        <tr>
+            <th style="text-align: left;" ><p id="nameProducts" >Tên sản phẩm</p></th>
+            <th style="text-align: right;" colspan="2"><p id="count" ></p></th>      
+        </tr>
+    </table>
+
+    <h1>Thêm sản phẩm mới</h1>
+
+    <form action="javascript:void(0);" method="POST" >
+        <input type="text" id="products" placeholder="Nhập tên sản phẩm ">
+        <button type="submit" id="addProducts" onclick="addProducts()">Thêm</button>
+    </form>
+
+    <h1>Sửa tên sản phẩm</h1>
+    <form aaction="javascript:void(0);" method="POST" id="saveEdit">
+        <input type="text" id="editname">
+        <button type="submit" id="edit" onclick="editName()">Sửa</button>
+    </form>
+</center>
+</body>
+</html>

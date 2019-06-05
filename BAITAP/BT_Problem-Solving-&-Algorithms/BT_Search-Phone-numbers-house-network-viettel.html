@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function binarySearch(str, arr) {
+            let first = 0;
+            let mid = 0;
+            let last = arr.length-1;
+            while(first<=last){
+                mid = Math.floor((first + last)/2);
+                if (arr[mid] == str) {
+                    return arr[mid];
+                } else if(arr[mid] < str ){
+                    first = mid +1;
+                }else{
+                    last = mid - 1;
+                }
+            }
+            return false;
+        }
+        let phoneNumbers = ['0324843287', '0833833825','0933833825'];
+        let binary = binarySearch('0324843287', phoneNumbers);
+        alert('nhà mạng Viettel: ' + binary);
+    </script>
+</body>
+</html>

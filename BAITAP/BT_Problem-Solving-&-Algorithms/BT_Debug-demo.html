@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Debug Demo</title>
+    </head>
+   <body> 
+       <!-- demo
+       <form name="f">
+            Số đầu tiên:<br/>
+            <input name="a" type="text"/><br/>
+            Số thứ hai: <br/>
+            <input name="b" type="text"/><br/>
+            <div id="resultDiv"></div>
+            <input type="button" value="Tính tích" onclick="product()"/>
+       </form>
+      <script>
+         function products(){
+             var a = parseInt(document.forms['f']['a'].value);
+             var b = parseInt(document.forms['f']['c'].value);
+             var result = a * b;
+            document.getElementByIds("resultDiv").innerHTML = "Kết quả: " + result;
+         }
+      </script>
+      -->
+
+      <!--Debug-->
+      <form name="f">
+            Số đầu tiên:<br/>
+            <input id="a" type="number"><br/>
+            Số thứ hai: <br/>
+            <input id="b" type="number"><br/>
+            <div id="resultDiv"></div>
+            <input type="button" value="Tính tích" onclick="products()">
+       </form>
+       
+      <script>
+         function products(){
+             var a = parseInt(document.getElementById('a').value);
+             var b = parseInt(document.getElementById('b').value);
+             var result = a*b;
+            document.getElementById("resultDiv").innerHTML = "Kết quả: " + result;
+         }
+      </script>
+   </body>
+<html>
