@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="534c6fa4-1ee0-40cb-ba1b-38d75a7ad0c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Array&amp;Method_JaVa/ThucHanh/src/ThucHanh/TH1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Array&amp;Method_JaVa/ThucHanh/src/ThucHanh/TH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Array&amp;Method_JaVa/ThucHanh/src/ThucHanh/TH3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Array&amp;Method_JaVa/ThucHanh/src/ThucHanh/TH4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap/src/baitap1/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap/src/baitap1/Test_QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh/Test_Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_ARRAY/BT_Array/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_ARRAY/BT_Array/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_ARRAY/BT_Array/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_ARRAY/BT_Array_01/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_ARRAY/BT_Array_01/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_ARRAY/BT_Array_01/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_ARRAY/BT_Array_01/bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_ARRAY/BT_Array_Tudien/tudien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_ARRAY/BT_Textarea_on_typing/textarea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_ARRAY/BT_XO/tictactoe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_BMI/bmi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_01/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_01/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_01/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_01/bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_01/bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_01/bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_01/bai7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_CTDK_02/bai9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_DATE-MONTH/date_month.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_puzzle/puzzle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_puzzle/puzzle2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/BT_puzzle/puzzle_name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_CAU-DIEU-KIEN/tiente2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_FUNTION/BT_Ham-Feet-metters/chuyendoi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_FUNTION/BT_Ham-ktra-so-nguyen-to/kiemtrasonguyento.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_FUNTION/BT_Ham01/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_FUNTION/BT_Ham01/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_BangCuuChuong/bangcuuchuong.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap01/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap01/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap01/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap01/bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap01/bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap01/bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap01/bai7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap01/bai8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap02/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap02/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap02/bai3/bai3-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap02/bai3/bai3-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap02/bai3/bai3-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap02/bai3/bai3-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap02/bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap02/bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_VongLap02/bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_LOOP/BT_hien-thi-20-so-nguyen-dau-tien/songuyento.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_OOP/BT_ADAM_EVA/Adam-Eva.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_OOP/BT_GAME_CARO/Game-caro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_OOP/BT_GAME_DI_CHUYEN_DOI_TUONG/gamedichuyendoituong.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_OOP/BT_SWITCHES_&amp;_BULBS/Switches&amp;Bulbs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_OOP/BT_XD_CLASS_HCN/HCN.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_OOP/BT_XD_CLASS_PHONE/Phone.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_OOP/BT_XD_CLASS_TEMPERATURE/Temperature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_Problem-Solving-&amp;-Algorithms/BT_App-products/App-products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_Problem-Solving-&amp;-Algorithms/BT_App-products/BT_App-Product_management_array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_Problem-Solving-&amp;-Algorithms/BT_Debug-demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_Problem-Solving-&amp;-Algorithms/BT_Game-doan-so.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_Problem-Solving-&amp;-Algorithms/BT_Search-Phone-numbers-house-network-viettel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_STRING-PROCESSING/BT_Validate-Account/Validate-account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_STRING-PROCESSING/BT_Validate-email/Validate-email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_STRING-PROCESSING/BT_Validate-name-of-class/Validate-name-of-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_STRING-PROCESSING/BT_Validate-phone-numbers/Validate-phone-numbers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_TOAN-TU/BT-C-F/chuyen-doi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_TOAN-TU/BT-TIENTE/tiente.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_TOAN-TU/BT_MAYTINH/maytinh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_TOAN-TU/BT_S_HCN/S_HCN.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_TOAN-TU/BT_UD_MAYTINH/udmaytinh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_TOAN-TU/BT_doyoulove/doyouloveme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_TOAN-TU/BT_hinhtron/HinhTron.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_TOAN-TU/DIEM-TB/diem-tb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_castudio_Game-boucing/game-bouncing-ball.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/BT_castudio_Game-boucing/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/demo/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/demo/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/BAITAP/demo/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/KiemtraThucHanhHaThienVan-C0519G1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Array/arrayElement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Array/arrayReverse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Array/arrayValue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Array/arrayValueMax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Array/caro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Array/coCaRo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Conditional_Sentence/banphim.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Conditional_Sentence/browser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Conditional_Sentence/codegym.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Conditional_Sentence/ex01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Conditional_Sentence/th2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Conditional_Sentence/th3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Conditional_Sentence/toantu1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Conditional_Sentence/toantu2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/FUNTION/TH1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/FUNTION/TH2_Chuyendoinhietdo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/FUNTION/TH3_minArray.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LOOP/NamNhuan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LOOP/do_while.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LOOP/for.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LOOP/for2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LOOP/for_longnhau.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LOOP/while.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LOOP/while2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LOOP/while_long_nhau.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LT-OOP1/TH1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LT-OOP1/TH2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LT-OOP1/TH3_Funny-circles/TH_Funny-circles-color-ngau-nhien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LT-OOP1/TH3_Funny-circles/TH_Funny-circles-radius-co-dinh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LT-OOP1/TH3_Funny-circles/TH_Funny-circles-radius-ngau-nhien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/LT-OOP2/FlashLampBattery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Problem-Solving-&amp;-Algorithms/Th_Count-the-number-of-occurrences-of-the-element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Problem-Solving-&amp;-Algorithms/Th_Search-value-max-or-min.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/String_Processing/TH-kt-ki-tu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/String_Processing/TH-kt-ma-quoc-gia-nuoc-My.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Variable_Operator/bt1-htkq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Variable_Operator/bt1-nhung-javascrip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Variable_Operator/bt2-htkq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Variable_Operator/bt2-nhung-javascrip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Variable_Operator/bt3-ktkq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Variable_Operator/chiahet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Variable_Operator/chuot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Variable_Operator/khaibaobien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/thuchanh/Variable_Operator/khaibaobien2.html" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thuchanh/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/thuchanh/Test_Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/thuchanh/TH1_ClassRectangle.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh1/Test_Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/th2/Circle.java" />
+        <option value="$PROJECT_DIR$/src/th2/test_circle.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh/Test_Rectangle.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="534" />
+    <option name="y" value="24" />
+    <option name="width" value="746" />
+    <option name="height" value="673" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ThucHanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThucHanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThucHanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thuchanh" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test_Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thuchanh.Test_Rectangle" />
+      <module name="ThucHanh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thuchanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test_Rectangle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="534c6fa4-1ee0-40cb-ba1b-38d75a7ad0c8" name="Default Changelist" comment="" />
+      <created>1560322107855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560322107855</updated>
+      <workItem from="1560322109254" duration="1416000" />
+      <workItem from="1560326797299" duration="2000" />
+      <workItem from="1560327063019" duration="236000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1654000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14378029" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32739726" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="242" column="18" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="18" />
+          <folding>
+            <element signature="docComment;method#toString#0;class#Object#0" />
+            <element signature="e#10105#10106#0" expanded="true" />
+            <element signature="e#10188#10189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thuchanh/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/th2/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/th2/test_circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thuchanh/Test_Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KiemTraIndext</title>
+</head>
+
+<body>
+    <script>
+        function tryRemoveFromArray(arr, indext) {
+            let arrCount = [];
+            let count = 0;
+            for (let i = 0; i < arr.length; i++) {
+                if (i != indext) {
+                    arrCount[count] = arr[i];
+                    count++;
+                }
+            }
+            return (arrCount + "<br/>");
+        }
+        let array = [12, 6, 3, 7, 21, 5, 7];
+
+        document.write(tryRemoveFromArray(array, -2));
+        document.write(tryRemoveFromArray(array, 0));
+        document.write(tryRemoveFromArray(array, 7));
+        document.write(tryRemoveFromArray(array, 2));
+
+    </script>
+</body>
+
+</html>

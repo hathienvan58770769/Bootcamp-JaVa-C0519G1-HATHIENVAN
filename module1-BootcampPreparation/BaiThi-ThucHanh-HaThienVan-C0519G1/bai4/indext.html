@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>HinhChuNhat</title>
+</head>
+
+<body>
+    <center>
+        <canvas id="myCanvas" width="500px" height="500px" style="border: 1px solid #000000;"></canvas>
+    </center>
+    <script>
+        function Rectangle(x, y, width, height, color) {
+            this.x = x;
+            this.y = y;
+            this.width = width;
+            this.height = height;
+            this.color = color;
+
+            this.render = function () {
+                let ctx = document.getElementById('myCanvas').getContext("2d");
+
+                ctx.beginPath();
+                ctx.fillStyle = this.color;
+                ctx.fillRect(this.x, this.y, this.width, this.height);
+                ctx.fill();
+            }
+        }
+        let rectangle = new Rectangle(10, 10, 200, 100, "#000000");
+        rectangle.render();
+    </script>
+</body>
+
+</html>

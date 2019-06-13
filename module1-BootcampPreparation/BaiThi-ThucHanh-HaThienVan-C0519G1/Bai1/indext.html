@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KiemTraDiemSoThapNhatTrongMang</title>
+</head>
+
+<body>
+    <script>
+        function findMinStore(arr) {
+            let minPoint = arr[0];
+            for (let i = 1; i < arr.length; i++) {
+                if (arr[i] < minPoint) {
+                    minPoint = arr[i];
+                }
+            }
+            return ("[" + arr + "]" + " Min score in array : " + minPoint + "<br/>");
+        }
+        
+        let pointList1 = [10, 5, 2, 8, -1, 6, 8];
+        document.write(findMinStore(pointList1));
+
+        let pointList2 = [2, 4, 0, 5, 1];
+        document.write(findMinStore(pointList2));
+
+        let pointList3 = [8, 6, 2, 6, 1, 1, 4];
+        document.write(findMinStore(pointList3));
+    </script>
+</body>
+
+</html>
