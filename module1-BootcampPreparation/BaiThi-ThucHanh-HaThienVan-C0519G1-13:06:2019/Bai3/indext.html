@@ -13,10 +13,10 @@
         function isPrime(number) {
             if (number > 1) {
                 for (let n = 2; n < number; n++) {
-                    if (number % n != 0)
-                        return true + "<br/>";
+                    if (number % n == 0)
+                        return false+ "<br/>";
                     else
-                        return false + "<br/>";
+                        return true + "<br/>";
                 }
             } else
                 return false + "<br/>";
