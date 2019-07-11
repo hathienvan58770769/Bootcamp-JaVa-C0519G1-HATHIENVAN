@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14f9fbe3-ace3-4361-8e29-ef8147800fcb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/thuchanh/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh/TestCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh/TestRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh/TestShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh/TestSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/BaiTap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/out/production/BaiTap/baitap/BT1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/src/baitap/BT1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/ThucHanh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/out/production/ThucHanh/thuchanh/TH1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/out/production/ThucHanh/thuchanh/TH2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/out/production/ThucHanh/thuchanh/TH3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/out/production/ThucHanh/thuchanh/TH4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/out/production/ThucHanh/thuchanh/TH5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/src/thuchanh/TH1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/src/thuchanh/TH2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/src/thuchanh/TH3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/src/thuchanh/TH4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/src/thuchanh/TH5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/BaiTap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/out/production/BaiTap/baitap1/QuadraticEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/out/production/BaiTap/baitap1/Test_QuadraticEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/out/production/BaiTap/baitap2/StopWatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/src/baitap1/QuadraticEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/src/baitap1/TestQuadraticEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/BaiTap/src/baitap2/StopWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/ThucHanh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/out/production/ThucHanh/META-INF/ThucHanh.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/out/production/ThucHanh/th2/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/out/production/ThucHanh/th2/test_circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/out/production/ThucHanh/thuchanh/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/out/production/ThucHanh/thuchanh/Test_Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/src/thuchanh/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/src/thuchanh/Test_Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/BAITAP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/Bai3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/Bai4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/Bai5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/Bai6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/bai1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/bai2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/Bai3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/Bai4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/Bai5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/Bai6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/bai1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/bai2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/THUC_HANH.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th9.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thuchanh/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thuchanh/TestShape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thuchanh/TestCircle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thuchanh/TestRectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/thuchanh/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thuchanh/TestSquare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/thuchanh</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/thuchanh/TH.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh/Shape.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh/Circle.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh/Test.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh/TestShape.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh/TestCircle.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh/TestRectangle.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh/TestSquare.java" />
+        <option value="$PROJECT_DIR$/src/thuchanh/Square.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="538" />
+    <option name="y" value="23" />
+    <option name="width" value="742" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ThucHanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThucHanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThucHanh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thuchanh" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestSquare">
+    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thuchanh.TestCircle" />
+      <module name="ThucHanh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thuchanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thuchanh.TestRectangle" />
+      <module name="ThucHanh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thuchanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thuchanh.TestShape" />
+      <module name="ThucHanh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thuchanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thuchanh.TestSquare" />
+      <module name="ThucHanh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thuchanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestSquare" />
+        <item itemvalue="Application.TestRectangle" />
+        <item itemvalue="Application.TestCircle" />
+        <item itemvalue="Application.TestShape" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14f9fbe3-ace3-4361-8e29-ef8147800fcb" name="Default Changelist" comment="" />
+      <created>1560418247504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560418247504</updated>
+      <workItem from="1560418248814" duration="2726000" />
+      <workItem from="1560474188795" duration="585000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3311000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="538" y="23" width="742" height="701" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.042857144" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32840723" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/thuchanh/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thuchanh/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thuchanh/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thuchanh/TestShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thuchanh/TestCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thuchanh/TestRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thuchanh/TestSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thuchanh/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
