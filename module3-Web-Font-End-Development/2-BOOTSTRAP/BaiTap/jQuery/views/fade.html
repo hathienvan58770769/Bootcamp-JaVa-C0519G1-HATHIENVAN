@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="../jquery/jquery-3.4.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#button1").click(function () {
+                $("#div1").fadeOut();
+                $("#div2").fadeOut("slow");
+                $("#div3").fadeOut(3000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#button2").click(function () {
+                $("#div4").fadeToggle();
+                $("#div5").fadeToggle("slow");
+                $("#div6").fadeToggle(3000);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#button3").click(function () {
+                $("#div7").fadeTo("slow", 0.15);
+                $("#div8").fadeTo("slow", 0.4);
+                $("#div9").fadeTo("slow", 0.7);
+            });
+        });
+    </script>
+</head>
+<style>
+    .header {
+        height: 50px;
+        width: 100%;
+    }
+
+    .left {
+        background: rgba(42, 171, 210, 0.01);
+        height: 100%;
+        width: 20%;
+        float: left;
+    }
+
+    .content {
+        background: rgba(76, 174, 76, 0);
+        height: auto;
+        width: 80%;
+        float: left;
+    }
+
+    .footer {
+        background: #cfd3ee;
+        height: 100px;
+        width: 100%;
+        clear: both;
+    }
+
+    .content p {
+        margin: 20px 0 20px 30px;
+        border-radius: 2px;
+        width: 800px;
+        height: 80px;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get gadsarouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="../image/jquery-logo.png" alt="Logo"
+                            style="width:50px; height: 40px"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">Devices <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">EN <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+    <div class="left">
+        <h3>jQuery Effects</h3>
+        <a href="hide_show.html">hide() and show()</a><br>
+        <a href="fade.html">Fade</a><br>
+        <a href="slide.html">Slide</a><br>
+        <a href="animation.html">Animation</a><br>
+        <a href="stop.html">stop()</a><br>
+        <a href="callback.html">Callback()</a><br>
+        <a href="chaining.html">Chaining</a><br>
+    </div>
+    <div class="content">
+        <p style="font-size: 1.5em">
+            Với jQuery, bạn có thể làm mờ dần các phần tử trong và ngoài tầm nhìn.
+        </p>
+        <h3>Syntax:</h3>
+        <p>
+            $(selector).fadeOut(speed,callback);
+            $(selector).fadeIn(speed,callback);
+        </p>
+        <p>
+            Tham số speed tùy chọn chỉ định thời lượng của hiệu ứng. Nó có thể lấy các giá trị sau: "slow", "fast" hoặc
+            mili giây.
+            Tham số callback là một chức năng sẽ được thực hiện sau khi fading hoàn thành.
+        </p>
+        <h3>Example:</h3>
+        <pre>
+            script>
+                $(document).ready(function () {
+                    $("button").click(function () {
+                        $("#div1").fadeOut();
+                        $("#div2").fadeOut("slow");
+                        $("#div3").fadeOut(3000);
+                    });
+                });
+            /script>
+        </pre>
+        <p>Demo fadeOut() với các tham số khách nhau</p>
+
+        <button id="button1">Click to fade out boxes</button><br><br>
+
+        <div id="div1" style="width:80px;height:80px;background-color:red;"></div><br>
+        <div id="div2" style="width:80px;height:80px;background-color:green;"></div><br>
+        <div id="div3" style="width:80px;height:80px;background-color:blue;"></div>
+
+        <div>
+            <p>Bạn hãy thử tự làm bằng fadeIn().</p>
+        </div>
+
+        <div>
+            <p>Tương tự toggle của hide() and show(), Fade cũng có toggle</p>
+        </div>
+        <h3>Syntax:</h3>
+        <p>
+            $(selector).fadeToggle(speed,callback);
+        </p>
+        <pre>
+            $(document).ready(function(){
+                $("#button1").click(function(){
+                  $("#div1").fadeToggle();
+                  $("#div2").fadeToggle("slow");
+                  $("#div3").fadeToggle(3000);
+                });
+              });
+        </pre>
+        <button id="button2">Click to fade in/out boxes</button><br><br>
+
+        <div id="div4" style="width:80px;height:80px;background-color:red;"></div>
+        <br>
+        <div id="div5" style="width:80px;height:80px;background-color:green;"></div>
+        <br>
+        <div id="div6" style="width:80px;height:80px;background-color:blue;"></div>
+
+        <div>
+            <p>Phương thức jQuery fadeTo () cho phép làm mờ dần độ mờ cho trước (giá trị từ 0 đến 1)</p>
+        </div>
+        <h3>Syntax:</h3>
+        <p>
+            $(selector).fadeTo(speed,opacity,callback);
+        </p>
+        <p>
+            Tham số độ mờ được yêu cầu trong phương thức fadeTo () chỉ định độ mờ cho độ mờ cho trước (giá trị từ 0 đến
+            1).
+        </p>
+        <pre>
+            script>
+                $(document).ready(function () {
+                    $("#button3").click(function () {
+                        $("#div7").fadeTo("slow", 0.15);
+                        $("#div8").fadeTo("slow", 0.4);
+                        $("#div9").fadeTo("slow", 0.7);
+                    });
+                });
+            /script>
+        </pre>
+
+        <button id="button3">Click to fade boxes</button><br><br>
+
+        <div id="div7" style="width:80px;height:80px;background-color:red;"></div><br>
+        <div id="div8" style="width:80px;height:80px;background-color:green;"></div><br>
+        <div id="div9" style="width:80px;height:80px;background-color:blue;"></div>
+    </div>
+
+    <div class="footer">
+        @Trung.doan-codegymDaNang
+    </div>
+
+</body>
+
+</html>

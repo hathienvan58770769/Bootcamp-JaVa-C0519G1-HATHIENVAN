@@ -3,7 +3,7 @@ package com.codegym.cms.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "customers")
+@Table(name = "customer")
 public class Customer {
 
     @Id

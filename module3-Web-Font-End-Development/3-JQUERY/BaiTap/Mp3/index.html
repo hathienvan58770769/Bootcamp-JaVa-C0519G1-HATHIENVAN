@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Lycifer MP3</title>
+
+    <!-- add styles and scripts -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        var songs = ["mp3/AnhDechCanGiNhieuNgoaiEm.mp3", "mp3/ConTraiCung-Bray.mp3", "mp3/ExsHateMe-BRayMasewAMee.mp3", "mp3/ExsHateMe-BRayMasewAMee.mp3", "mp3/NenVaHoa-Rhymastic.mp3", "mp3/SaoCungDuocGuitarVersion-Binz.mp3", "mp3/TheySaid-TouliverBinz.mp3"];
+        var poster = ["images/pic-1.jpg", "images/pic-2.jpg", "images/pic-3.jpg", "images/pic-4.png", "images/pic-5.jpg", "images/pic-6.jpg", "images/pic-7.png"];
+        var songTitle = document.getElementById("songTitle");
+        var fillBar = document.getElementById("fill");
+        var song = new Audio();
+        var currentSong = 0;
+        window.onload = playSong;
+        function playSong() {
+            song.src = songs[currentSong];
+            songTitle.textContent = songs[currentSong];
+            const playPromise = song.play();
+        }
+        function playOrPauseSong() {
+            if (song.paused) {
+                song.play();
+                $("#play img").attr("src", "images/pause.jpg");
+            } else {
+                song.pause();
+                $("#play img").attr("src", "images/play.jpg");
+            }
+        }
+        song.addEventListener('timeupdate', function () {
+            var position = song.currentTime / song.duration;
+            fillBar.style.width = position * 100 + '%';
+        });
+        function next() {
+            currentSong++;
+            if (currentSong > 6) {
+                currentSong = 0;
+            }
+            playSong();
+            $("#play img").attr("src", "images/pause.jpg");
+            $("#image img").attr("src", poster[currentSong]);
+            $("#bg img").attr("src", poster[currentSong]);
+        }
+        function pre() {
+            currentSong--;
+            if (currentSong < 0) {
+                currentSong = 6;
+            }
+            playSong();
+            $("#play img").attr("src", "images/pause.jpg");
+            $("#image img").attr("src", poster[currentSong]);
+            $("#bg img").attr("src", poster[currentSong]);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="bg">
+        <div id="blackLayer"></div>
+        <img src="images/pic-1.jpg" />
+    </div>
+    <div id="main">
+        <div id="image">
+            <img src="images/pic-1.jpg" />
+        </div>
+        <div id="player">
+            <div id="songTitle">Title</div>
+            <div id="buttons">
+                <button id="pre" onclick="pre();"><img src="images/pre.png" height="90%" width="90%"></button>
+                <button id="play" onclick="playOrPauseSong();"><img src="images/pause.jpg" height="90%" width="90%"></button>
+                <button id="next" onclick="next();"><img src="images/next.jpg" height="90%" width="90%"></button>
+            </div>
+
+            <div id="seek-bar">
+                <div id="fill"></div>
+                <div id="handle"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

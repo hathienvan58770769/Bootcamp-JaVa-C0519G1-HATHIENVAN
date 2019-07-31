@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Views Employee</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="col-md-offset-1 col-md-10">
+        <h3 class="text-center">Employee Management</h3>
+        <hr/>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <div class="panel-title">Employee View</div>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <th>ID</th>
+                        <th>Group Employees</th>
+                        <th>Full Name</th>
+                        <th>Gender</th>
+                        <th>Phone Number</th>
+                        <th>Number CMND</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                    </tr>
+                    <tr th:each="emls : ${employees}">
+                        <td th:text="${emls.id}"></td>
+                        <td th:text="${emls.group}"></td>
+                        <td th:text="${emls.fullName}"></td>
+                        <td th:text="${emls.gender}"></td>
+                        <td th:text="${emls.phoneNumber}"></td>
+                        <td th:text="${emls.numberCMND}"></td>
+                        <td th:text="${emls.email}"></td>
+                        <td th:text="${emls.address}"></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

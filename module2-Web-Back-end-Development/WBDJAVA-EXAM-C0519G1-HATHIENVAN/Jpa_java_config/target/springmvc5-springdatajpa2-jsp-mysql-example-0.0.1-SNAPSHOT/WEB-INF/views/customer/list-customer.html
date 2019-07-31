@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create customer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="col-md-offset-1 col-md-10">
+        <h3 class="text-center">Spring MVC 5 + Spring Data JPA 2 + Thymeleaf +
+            MySQL Example - Customer Management</h3>
+        <hr/>
+
+        <input type="button" value="Add Customer"
+               onclick="window.location.href='showForm'; return false;"
+               class="btn btn-primary"/> <br/>
+        <br/>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <div class="panel-title">Customer List</div>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Province</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr th:each="cus : ${customers}">
+                        <td th:text="${cus.firstName}"></td>
+                        <td th:text="${cus.lastName}"></td>
+                        <td th:text="${cus.email}"></td>
+                        <td th:text="${cus.province.name}"></td>
+                        <td>
+                            <!-- display the update link -->
+                            <a th:href="@{'/customer/update?id=' + ${cus.id}}">Update</a>
+                            | <a th:href="@{'/customer/delete?id=' + ${cus.id}}"
+                                 onclick="if (!(confirm('Are you sure you want to delete this customer?'))) return false">Delete</a>
+                        </td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+.main{
+    margin: 0 auto;
+    width: 100%;
+}
+.head{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    margin: 0;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.search{
+    margin: 0;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.search input#s {
+    margin: 30px 10px 30px 230px;
+    float: left;
+    width: 50%;
+    border-radius: 3px;
+}
+.search input#search {
+    margin: 30px 0;
+    float: left;
+    width: 15%;
+    border-radius: 3px;
+    background: #658fbf;
+    color: aliceblue;
+}
+.menu{
+    margin: 0;
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #e8ebed;
+}
+.menu a{
+    margin: 15px 0 0 50px;
+    float: left;
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #658fbf;
+}
+.menu a:hover{
+    margin: 10px 0 0 45px;
+    float: left;
+    width: 10%;
+    height: 50%;
+    font-size: 20px;
+    text-align:center;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    color: #ffffff;
+    background: #658fbf;
+}
+.left{
+    margin: 0;
+    width: 15%;
+    height: 630px;
+    float: left;
+    background: #658fbf;
+}
+.left h1{
+    margin: 10px;
+    float: left;
+    font-size: 25px;
+    color: #ffffff;
+}
+.left hr{
+    margin-left: 10px;
+    width: 80%;
+    float: left;
+    background: #ffffff;
+}
+.left a{
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 30px 10px 10px;
+}
+.content{
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 5%;
+    float: left;
+    width: 70%;
+    height: 630px;
+}
+.content1{
+    margin: 0 7px 20px 7px;
+    float: left;
+    width: 17%;
+    height: 300px;
+    background: #658fbf;
+}
+.content1 img{
+    width: 100%;
+    height: 80%;
+}
+.content1 a{
+    margin: 0;
+    float: left;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.slide{
+    position: relative;
+    margin: 0;
+}
+.slide a.prev{
+    margin: 255px 0 0 -50px;
+    float: left;
+    width: 5%;
+    height: 80px;
+    border: 1px solid #658fbf;
+    padding-top: 30px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #658fbf;
+}
+.slide a.next{
+    margin: 255px 15px 0 0px;
+    float: right;
+    width: 5%;
+    height: 80px;
+    padding-top: 30px;
+    border: 1px solid #658fbf;
+    font-size: 35px;
+    text-decoration: none;
+    color: #658fbf;
+}

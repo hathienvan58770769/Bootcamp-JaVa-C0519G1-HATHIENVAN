@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create customer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script></head>
+<body>
+<div class="container">
+    <h1>Create customer</h1>
+    <p>
+        <a href="/customers">Customer list</a>
+    </p>
+    <th:block th:if="${message}">
+        <p th:text="${message}"></p>
+    </th:block>
+    <div class="col-md-offset-2 col-md-7">
+        <h3 class="text-center">Spring MVC 5 + Spring Data JPA 2 + Thymeleaf + MySQL
+            Example - Customer Management</h3>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <div class="panel-title">Add Customer</div>
+            </div>
+            <div class="panel-body">
+                <form th:action="@{/customer/update}" th:object="${customer}" method="post" class="form-horizontal">
+
+                    <!-- need to associate this data with customer id -->
+                    <input th:type="hidden" name="id" th:field="*{id}">
+                    <div class="form-group">
+                        <label th:for="*{firstName}" class="col-md-3 control-label">First Name</label>
+                        <div class="col-md-9">
+                            <input th:field="*{firstName}" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label th:for="*{lastName}" class="col-md-3 control-label">Last
+                            Name</label>
+                        <div class="col-md-9">
+                            <input th:field="*{lastName}" class="form-control"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label th:for="*{email}" class="col-md-3 control-label">Email</label>
+                        <div class="col-md-9">
+                            <input th:field="*{email}" class="form-control"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label th:for="*{province}" class="col-md-3 control-label">Province</label>
+                        <div class="col-md-9">
+                            <select th:field="*{province}">
+                                <option th:each="p : ${provinces}" th:value="${p.id}" th:text="${p.name}"></option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <!-- Button -->
+                        <div class="col-md-offset-3 col-md-9">
+                            <input type="submit" class="btn btn-primary" value="Update Customer">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

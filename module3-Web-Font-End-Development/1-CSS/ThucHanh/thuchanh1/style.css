@@ -1,0 +1,10 @@
+.navbar{
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+}
+.main{
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+}

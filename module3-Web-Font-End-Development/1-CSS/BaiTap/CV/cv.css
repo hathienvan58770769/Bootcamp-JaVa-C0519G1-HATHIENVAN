@@ -1,0 +1,99 @@
+*, body, html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a , abbr 
+ 			{	margin: 0px;
+				padding: 0px;
+				margin: 0px;
+				border: 0px;
+				outline: 0;
+				font-size: 100%;
+				vertical-align: baseline;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				background: transparent;
+				text-decoration: none;
+            }
+ul li {list-style-type: none;}
+h2 {font-size: 32px;}
+h3 {font-size: 28px;}
+h4 {font-size: 25px;}
+h5 {font-size: 22px;
+    color: slategray}
+#container{
+    width: 1364px;
+    margin: auto;
+    background: rgb(248, 239, 239);
+}
+#top-header{
+    background: url("https://www.visitsingapore.com/vi_vn/see-do-singapore/nature-wildlife/_jcr_content/par-carousel/carousel_with_video/carousel/item_1.thumbnail.carousel-img.1400.500.jpg");
+    height: 250px;
+    width: 100%;
+    margin-bottom: 50px;
+    float: left;
+
+}
+
+#avatar{
+    width: 250px;
+    height: 250px;
+    background: white;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+#avatar img{
+    width: 250px;
+    height: 250px;
+    }
+
+#infor{
+    padding-top: 30px;
+    float: right;
+    width: 30%;
+    text-shadow: 1px 1px darkgray;
+    font-size: 22px;
+    color: aliceblue;
+    }
+#name{
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    color: aliceblue;
+    float: right;
+    width: 40%;
+    text-shadow: 2px 2px darkgray;
+}
+#social-infor{
+    width: 100%;
+    min-height: 100px;
+    float: left;
+    border-bottom: solid 1px silver;
+    margin-bottom: 20px;
+
+}
+#intro{
+    width: 60%;
+    min-height: 100px;
+    float: left;
+    padding: 30px 100px;
+}
+#link{
+    padding: 30px;
+    width: 40%;
+    min-height: 100px;
+    float: right;
+    padding-left: 200px;
+}
+#exp{
+    float: left;
+    width: 50%;
+}
+#studying{
+    float: right;
+    width: 50%;
+
+}
+#targer{
+    float: right;
+    width: 50%;
+}
+

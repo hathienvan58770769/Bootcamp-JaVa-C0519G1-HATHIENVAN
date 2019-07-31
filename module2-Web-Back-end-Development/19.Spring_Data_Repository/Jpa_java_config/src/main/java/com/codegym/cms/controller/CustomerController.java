@@ -1,6 +1,7 @@
 package com.codegym.cms.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.codegym.cms.entity.Customer;
 import com.codegym.cms.entity.Province;
@@ -10,6 +11,8 @@ import com.codegym.cms.service.ProvinceService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +20,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 
 @Controller
@@ -37,11 +41,18 @@ public class CustomerController {
     }
 
     @GetMapping(value = {"/list","/"})
-    public String listCustomers(Model theModel) {
-        Iterable <Customer> theCustomers = customerService.getCustomers();
-        theModel.addAttribute("customers", theCustomers);
-        return "/customer/list-customer";
+    public ModelAndView listCustomers(@RequestParam("s") Optional<String> s, Pageable pageable) {
+        Page<Customer> customers;
+        if(s.isPresent()){
+            customers = customerService.findAllByFirstNameContaining(s.get(), pageable);
+        } else {
+            customers = customerService.findAll(pageable);
+        }
+        ModelAndView modelAndView = new ModelAndView("customer/list-customer");
+        modelAndView.addObject("customers", customers);
+        return modelAndView;
     }
+
 
     @GetMapping("/showForm")
     public String showFormForAdd(Model theModel) {

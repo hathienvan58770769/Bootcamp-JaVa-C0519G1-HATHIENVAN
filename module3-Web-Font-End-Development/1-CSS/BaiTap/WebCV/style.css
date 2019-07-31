@@ -1,0 +1,161 @@
+.main{
+    margin: 0 auto;
+    float:left;
+    width: 100%;
+    height: 1400px;
+    background: #ffffff;
+}
+.head{
+    margin: 0;
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+.avatar{
+    margin: 0;
+    float: left;
+    width: 200px;
+    height: 100%;
+    border-radius: 300px;
+    border:3px solid #658fbf;
+}
+.avatar img{
+    margin: 20px;
+    float: left;
+    width: 80%;
+    height: 80%;
+}
+.information{
+    margin:0;
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+.information h1{
+    margin: 0;
+    padding: 55px 0 0 0;
+    float: left;
+    color: #658fbf;
+    font-size: 30px;
+}
+.information h2{
+    margin: 0;
+    padding: 63px 0 0 0;
+    float: right;
+    color: #658fbf;
+    font-size: 22px;
+}
+.information hr{
+    margin: 0;
+    float: left;
+    width: 100%;
+    height: 3px;
+    border: none;
+    border-radius: 3px;
+    background: #658fbf;
+}
+.infor1{
+    margin: 5px;
+    float: left;
+    width: 45%;
+    height: 30px;
+}
+.infor1 img{
+    margin: 5px;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.infor1 p{
+    margin: 5px;
+    float: left;
+    font-size: 18px;
+}
+.content{
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+.content h1{
+    margin: 60px 0 10px 0px;
+    float: left;
+    color: #658fbf;
+    font-size: 30px;
+}
+.content hr{
+    margin: 0;
+    float: left;
+    width: 95%;
+    height: 3px;
+    border: none;
+    border-radius: 3px;
+    background: #658fbf;
+}
+.content1 p{
+    margin: 0;
+    padding-top: 10px;
+    float: left;
+    font-size: 18px;
+    width: 95%;
+}
+.content1{
+    margin: 0;
+    margin-top: 15px;
+    float: left;
+    width: 40%;
+}
+.content1 h2{
+    margin: 0;
+    padding-top: 10px;
+    float: left;
+    font-size: 18px;
+    color: #658fbf;
+}
+.content1 h2 span{
+    color: #6b6b6b;
+}
+.content p{
+    margin: 0;
+    padding-top: 10px;
+    float: left;
+    font-size: 18px;
+    width: 95%;
+}
+.contentkn{
+    margin: 0;
+    margin-top: 10px;
+    float: left;
+    width: 35%;
+    height: 5px;
+    background: #c8cccf;
+    border-radius: 5px;
+}
+.contentkn1{
+    margin: 0;
+    float: left;
+    width: 55%;
+    height: 5px;
+    background: #658fbf;
+    border-radius: 10px;
+}
+.contentkn2{
+    margin: 0;
+    float: left;
+    width: 75%;
+    height: 5px;
+    background: #658fbf;
+    border-radius: 10px;
+}
+.contentkn3{
+    margin: 0;
+    float: left;
+    width: 95%;
+    height: 5px;
+    background: #658fbf;
+    border-radius: 10px;
+}
+#cnt{
+    margin: 0;
+    float: left;
+    width: 50%;
+}

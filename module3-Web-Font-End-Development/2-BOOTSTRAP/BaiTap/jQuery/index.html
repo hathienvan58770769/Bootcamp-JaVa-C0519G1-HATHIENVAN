@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="jquery/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .header {
+        height: 50px;
+        width: 100%;
+    }
+
+    .left {
+        background: rgba(42, 171, 210, 0.01);
+        height: 500px;
+        width: 20%;
+        float: left;
+    }
+
+    .content {
+        background: rgba(76, 174, 76, 0);
+        height: 500px;
+        width: 80%;
+        float: left;
+    }
+
+    .footer {
+        background: #cfd3ee;
+        height: 100px;
+        width: 100%;
+        clear: both;
+    }
+
+    .content p {
+        margin: 20px 0 20px 30px;
+        border-radius: 2px;
+        width: 800px;
+        height: 80px;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get gadsarouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="image/jquery-logo.png" alt="Logo"
+                            style="width:50px; height: 40px"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">Devices <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">EN <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+    <div class="left">
+        <h3>jQuery Effects</h3>
+        <a href="views/hide_show.html">hide() and show()</a><br>
+        <a href="views/fade.html">Fade</a><br>
+        <a href="views/slide.html">Slide</a><br>
+        <a href="views/animation.html">Animation</a><br>
+        <a href="views/stop.html">stop()</a><br>
+        <a href="views/callback.html">Callback()</a><br>
+        <a href="views/chaining.html">Chaining</a><br>
+    </div>
+    <div class="content">
+        <p style="font-size: 1.5em">
+            jQuery là một thư viện JavaScript "viết ít, làm nhiều", nhẹ.
+            Mục đích của jQuery là làm cho việc sử dụng JavaScript trên trang web của bạn dễ dàng hơn nhiều.
+            jQuery có rất nhiều tác vụ phổ biến đòi hỏi nhiều dòng mã JavaScript để thực hiện và kết hợp chúng thành các
+            phương thức mà bạn có thể gọi bằng một dòng mã.
+            jQuery cũng đơn giản hóa rất nhiều thứ phức tạp từ JavaScript, như AJAX calls và thao tác DOM.
+            Thư viện jQuery chứa các tính năng sau: Thao tác HTML / DOM Thao tác CSS Phương thức events HTML Effects và
+            animations AJAX Utility
+
+        </p>
+    </div>
+    <div class="footer">@Trung.doan-codegymDaNang</div>
+    </nav>
+</body>
+
+</html>
