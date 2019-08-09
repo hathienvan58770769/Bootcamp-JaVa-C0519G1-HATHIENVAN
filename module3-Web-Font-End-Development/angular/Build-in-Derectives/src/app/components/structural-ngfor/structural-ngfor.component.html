@@ -1,0 +1,45 @@
+<h3>2. *ngFor</h3>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let city of cityList"> {{ city }}</li>
+</ul>
+<button type="button" class="btn btn-warning" (click)="onLoadDataCity()">Lay Du lieu</button>
+<ng-container *ngIf="customers.length > 0 ; else elseTemplate">
+        <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Avatar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let customer of customers; 
+                                let i = index ; 
+                                let f = first; 
+                                let l = last;
+                                let e = event;
+                                let o = odd  ;
+                                trackBy : trackByFunction" 
+                                
+                    [style.background-color]="(f === true) ? 'pink' : (l === true ) ? 'grey' : (e === true) ? 'white' : (o ===true) ? 'yellow' : ''"
+                    [style.background-color]="">
+                        <th> {{ i+1 }}</th>
+                        <td> {{ customer.id }} </td>
+                        <td> {{ customer.name }} </td>
+                        <td> {{ customer.age }} </td>
+                        <td> <img src="{{ customer.img }}" alt="{{ customer.name }}" [style.width]="'50px'" [style.height]="'50px'"></td>
+                    </tr>
+                </tbody>
+            </table>
+</ng-container>
+<ng-template #elseTemplate>
+    <p>Not found custumers</p>
+</ng-template>
+<button type="button" class="btn btn-warning" (click)="onLoadDataCustomers()">Lay Du lieu</button>
+
+
+
+
+

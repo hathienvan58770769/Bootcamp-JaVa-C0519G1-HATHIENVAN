@@ -1,0 +1,13 @@
+<!--
+    Property : [property-name] = "value" 
+    vd: src, href, value, disable, hidden
+
+-->
+<img [src]="imageLink" [alt]="'Image Cat Cute'" [width]="imageWidth" >
+<img bind-src="imageLink" bind-alt="'Image Cat Cute'" bind-width="imageWidth" >
+<hr>
+
+<input type="text" class="form-control" [value]="name">
+
+<button type="button" class="btn btn-primary" [disabled]="isValid">Dang Nhap</button>
+

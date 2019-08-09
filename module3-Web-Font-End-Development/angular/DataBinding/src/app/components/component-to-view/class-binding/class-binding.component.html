@@ -1,0 +1,21 @@
+<!--
+    class binding : [class.class-name]="value",
+    vd:sd 1 biến boolean , kiểu number , string để so sánh, 
+    ==> Chỉ áp dụng cho một class
+-->
+<table [class.table-bordered]="isBorder">
+    <tr>
+        <td>ID</td>
+        <td>Full Name</td>
+        <td>Phone Number</td>
+    </tr>
+    <tr>
+        <td>012</td>
+        <td>Ha Thien Van</td>
+        <td>012345678</td>
+    </tr>
+</table>
+
+<span class="label" [class.label-danger]="isChecked === 1" [class.label-success]="isChecked !== 1">Check</span>
+
+

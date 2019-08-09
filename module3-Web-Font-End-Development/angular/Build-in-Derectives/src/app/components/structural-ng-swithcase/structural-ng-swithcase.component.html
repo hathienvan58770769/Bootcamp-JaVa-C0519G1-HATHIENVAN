@@ -1,0 +1,29 @@
+<h2>1.*ngIf</h2>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let user of users">
+        <span class="text-danger" *ngIf="user.country === 'VietNam'" >
+            {{ user.name }} - {{ user.country}}
+        </span>
+        <span class="text-primary" *ngIf="user.country === 'USA'">
+            {{ user.name }} - {{ user.country}}
+        </span>
+        <span *ngIf="user.country !== 'USA' && user.country !== 'VietNam'" >
+            {{ user.name }} - {{ user.country}}
+        </span>
+    </li>
+</ul>
+<hr>
+<h2>2.*ngSwitchcase</h2>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let user of users" [ngSwitch]="user.country">
+        <span class="text-danger" *ngSwitchCase="'VietNam'" >
+            {{ user.name }} - {{ user.country}}
+        </span>
+        <span class="text-primary" *ngSwitchCase="'USA'">
+            {{ user.name }} - {{ user.country}}
+        </span>
+        <span *ngSwitchDefault>
+            {{ user.name }} - {{ user.country}}
+        </span>
+    </li>
+</ul>

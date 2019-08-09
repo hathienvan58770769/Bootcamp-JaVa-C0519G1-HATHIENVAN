@@ -1,0 +1,22 @@
+<h5> {{ title }} </h5>
+
+<button type="button" class="btn btn-primary" (click)= "onClick($event)">Click</button>
+
+<button type="button" class="btn btn-primary" (click)= "onBDClick($event)">dbClick</button>
+<hr>
+<h5> {{ count }} </h5>
+<button type="button" class="btn btn-warning" (click)= "onInc()">Tang</button>
+<hr>
+    <div class="form-group">
+        <label>User Name : </label>
+        <input type="text" class="form-control" (keyup)="onKeyUp($event)">
+        <h5>user name : {{ username }}</h5>
+    </div>
+<hr>
+    <div class="form-group">
+        <label>Name : </label>
+        <input type="text" class="form-control" (keyup.enter)="onKeyUpEnter($event)">
+        <h5> name : {{ name }}</h5>
+    </div>
+
+

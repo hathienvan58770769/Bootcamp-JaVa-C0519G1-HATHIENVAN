@@ -1,0 +1,8 @@
+.timer-test{
+    display: inline-block;
+    padding: 20px;
+    background: rgb(139, 74, 85);
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}

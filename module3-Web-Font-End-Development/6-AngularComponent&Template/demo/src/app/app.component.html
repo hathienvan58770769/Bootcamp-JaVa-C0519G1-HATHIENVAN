@@ -1,0 +1,5 @@
+<input type="text" placeholder="Enter name here" #name>
+
+<button type="button" class="btn btn-danger" (click)="add(name.value)">Add</button>
+
+<app-demo [nameList]="nameList"></app-demo>

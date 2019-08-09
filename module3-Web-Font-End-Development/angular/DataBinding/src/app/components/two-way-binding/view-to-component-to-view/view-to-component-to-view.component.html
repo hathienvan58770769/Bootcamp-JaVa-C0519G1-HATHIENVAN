@@ -1,0 +1,14 @@
+<h5>{{ title }}</h5>
+<form >
+    <div class="form-group">
+        <label>Full Name : {{ name }}</label>
+        <input type="text" class="form-control" [(ngModel)]="name" [ngModelOptions]="{standalone: true}">
+    </div>
+<hr>
+
+<select class="form-control" [(ngModel)]="gender" [ngModelOptions]="{standalone: true}">
+    <option value="1">Male</option>
+    <option value="0">FeMale</option>
+</select>
+<label>Gender : {{ gender == 0 ? 'FeMale' : 'Male' }}</label>
+</form>

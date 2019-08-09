@@ -1,0 +1,58 @@
+
+<!--C1;
+<h3 *ngIf="isCheck">hop le</h3>
+<h3 *ngIf="!isCheck">khong hop le</h3>
+//C2
+<div class="form-group">
+        <label>Age : </label>
+        <input type="text" class="form-control" [(ngModel)]="age">
+    </div>
+<ng-container *ngIf="age > 18; else elseBlock">
+    <h3>Du Tuoi</h3>
+</ng-container>
+<ng-template #elseBlock>
+    <h3>Khong Du Tuoi</h3>
+</ng-template>
+-->
+<h1>1.*ngIf</h1>
+<h2 *ngIf="isShow">User Name : {{ username }}</h2>
+
+<button type="button" class="btn btn-warning" (click)="onToggle()">Toggle</button>
+
+<div class="radio">
+    <label>
+        <input type="radio" name="rdCheck" (click)="onChange(true)">
+        hop le
+    </label>
+    <label>
+        <input type="radio" name="rdCheck" (click)="onChange(false)">
+        khong hop le
+    </label>
+</div>
+<p>Cach 1 : </p>
+<h3 *ngIf="isCheck">hop le</h3>
+<h3 *ngIf="!isCheck">khong hop le</h3>
+<p>Cach 2:</p>
+<ng-container *ngIf="isCheck; else elseTemplate">
+    <h3>Hop Le</h3>
+</ng-container>
+<ng-template #elseTemplate>
+    <h3>Khong Hop Le</h3>
+</ng-template>
+<hr>
+<p>Cach 3 : </p>
+<div class="form-group">
+    <label>Age : </label>
+    <input type="text" class="form-control" [(ngModel)]="age">
+</div>
+<ng-container *ngIf="age > 18; then thenTemplate; else elseBlock"></ng-container>
+<ng-template #thenTemplate>
+    <h3>Du tuoi</h3>
+</ng-template>
+<ng-template #elseBlock>
+    <h3>khong du tuoi</h3>
+</ng-template>
+
+
+
+
