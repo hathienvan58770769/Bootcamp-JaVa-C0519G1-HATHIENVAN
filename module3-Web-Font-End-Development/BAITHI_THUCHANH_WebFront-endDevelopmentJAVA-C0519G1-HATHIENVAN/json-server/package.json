@@ -1,0 +1,13 @@
+{
+  "name": "wfd-practice-test",
+  "version": "0.0.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "restify": "^7.2.3",
+    "restify-cors-middleware": "^1.1.1"
+  }
+}

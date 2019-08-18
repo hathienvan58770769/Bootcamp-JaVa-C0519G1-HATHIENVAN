@@ -1,0 +1,28 @@
+
+<div class="panel panel-danger">
+      <div class="panel-heading">
+            <h3 class="panel-title">List Movie</h3>
+      </div>
+      <div class="panel-body">
+            
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Link</th>
+                        <th>Author</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let movie of movies; let i = index;">
+                        <td>{{ i + 1 }}</td>
+                        <td>{{ movie.name}} </td>
+                        <td><a [href]= "movie.link">{{ movie.name }}</a></td>
+                        <td>{{ movie.author}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+      </div>
+</div>

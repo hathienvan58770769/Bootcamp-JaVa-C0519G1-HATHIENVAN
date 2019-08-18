@@ -1,0 +1,37 @@
+
+<div class="panel panel-primary">
+      <div class="panel-heading">
+            <h3 class="panel-title">Courses Management</h3>
+      </div>
+      <div class="panel-body">
+            
+            <button type="button" class="btn btn-primary" [routerLink]="['/courses/add']">Add Course</button>
+            
+            <table class="table table-bordered table-hover" [style.margin-top.px]="20">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let course of courses; ">
+                        <td>{{ course.id }}</td>
+                        <td>{{ course.name}}</td>
+                        <td>{{ course.description }}</td>
+                        <td>{{ (course.fee > 0 )?  (course.fee | currency:'USD' : true) : 'Free' }}</td>
+                        <td>
+                            <button type="button" class="btn btn-success" [routerLink]="['/courses', course.id ,'edit']">Edit</button>
+                            |
+                            <button type="button" class="btn btn-danger" (click)="onDeleteCourse(course.id)">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+      </div>
+</div>
+
