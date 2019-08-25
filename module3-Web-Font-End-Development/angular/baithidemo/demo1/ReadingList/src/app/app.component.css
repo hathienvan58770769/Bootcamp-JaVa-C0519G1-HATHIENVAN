@@ -1,0 +1,13 @@
+.content{
+    margin: 0 auto;
+    float: left;
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-closed-book-with-colourful-background_23-2148255907.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 300px;
+}
+a.router{
+    font-size: 20px;
+}

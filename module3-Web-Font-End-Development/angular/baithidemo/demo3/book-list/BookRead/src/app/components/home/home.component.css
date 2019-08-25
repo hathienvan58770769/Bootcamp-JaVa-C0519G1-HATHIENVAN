@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    padding: 50px 0 ;
+}
+a.link{
+    margin: 0;
+    float: left;
+    font-size: 20px;
+    padding:0 35%;
+}
+.list{
+    margin: 0 auto;
+    float: left;
+    background-color:rgba(106, 176, 196, 0.5);
+    width: 100%;
+}
+.btn-success-edit {
+    color: #fff;
+    background-color: #5386a3;
+    border-color: #5386a3
+}
+.btn-danger-delete{
+    color: #fff;
+    background-color: #bd708e;
+    border-color: #bd708e
+}
+span{
+    color: #bd708e;
+}
+thead>tr>th {
+    cursor: pointer;
+}

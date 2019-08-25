@@ -1,0 +1,28 @@
+{
+  "awesomes": [
+    {
+      "id": 2,
+      "tag": "javascript ZXZX",
+      "url": "https://reqres.in ZXNZX",
+      "descriptions": "rest server ready to  ZXjBXZx"
+    },
+    {
+      "id": 3,
+      "tag": "javascript",
+      "url": "https://medium.freecodecamp.org/the-evolution-of-async-javascript-from-callbacks-to-promises-to-async-await-e73b047f2f40",
+      "descriptions": "lịch sử tiến hóa của javascript async"
+    },
+    {
+      "id": 5,
+      "tag": "html",
+      "url": "https://html5doctor.com",
+      "descriptions": "Rất nhiều best pratice để xử lý các tình huống nhỏ thường gặp của html5"
+    },
+    {
+      "tag": "truhfbasd",
+      "url": "qwsas",
+      "descriptions": "qdd",
+      "id": 6
+    }
+  ]
+}

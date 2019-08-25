@@ -1,0 +1,10 @@
+.background{
+    margin: 0 auto;
+    float: left;
+    background-image: url("./img/green-book.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 300px
+}

@@ -1,0 +1,24 @@
+{
+  "books": [
+    {
+      "id": 2,
+      "name": "Long Kinh",
+      "read": true
+    },
+    {
+      "id": 3,
+      "name": "Sapiens2",
+      "read": false
+    },
+    {
+      "id": 5,
+      "name": "Hoc nghe",
+      "read": false
+    },
+    {
+      "name": "Long Ki",
+      "read": true,
+      "id": 6
+    }
+  ]
+}

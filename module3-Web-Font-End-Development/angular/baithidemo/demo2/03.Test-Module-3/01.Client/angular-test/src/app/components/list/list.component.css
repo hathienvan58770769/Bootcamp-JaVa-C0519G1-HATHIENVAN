@@ -1,0 +1,9 @@
+.home {
+    background-image: url(http://file.vforum.vn/hinh/2018/03/hinh-anh-hinh-nen-quyen-sach-dep-nhat-1.jpg);
+    background-size: 280px; 
+}
+
+.btn{
+    font-weight: 500;
+    float: right;
+}

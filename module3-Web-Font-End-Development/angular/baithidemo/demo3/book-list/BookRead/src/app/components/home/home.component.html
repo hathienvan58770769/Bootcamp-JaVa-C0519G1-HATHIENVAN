@@ -1,0 +1,67 @@
+<h1>My Awesome Reading List</h1>
+  <table class="table table-bordered table-hover" >
+    <tbody>
+      <tr>
+        <td><a class="link" [routerLink]="[ '/list-book/read']">List Read</a></td>
+        <td><a class="link" [routerLink]="[ '/list-book/unread']">List unRead</a></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <div class="panel panel-primary">
+        
+      <div class="panel-heading">
+          <h3 class="panel-title">List Book</h3>
+      </div>
+      <div class="list">
+      <div class="panel-body">
+            
+          <button type="button" class="btn btn-primary" [routerLink]="['/list-book/add']">Add Book</button>
+          <form class="navbar-form navbar-right" role="search">
+            <i>
+                <input class="form-control" type="text" name="search" [(ngModel)]="filter" placeholder="Search name book" size="80">      
+            </i>
+            <button type="submit" class="btn btn-primary" [routerLink]="['']" (click)="onSearch()">Search</button>
+            </form>
+          <table class="table table-bordered table-hover" [style.margin-top.px]="20">
+              <thead>
+                  <tr>
+                    <th>STT</th>
+                     <th (click)="sort('id')">ID
+                            <span class="glyphicon sort-icon" *ngIf="key=='id'" [ngClass]="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                     </th>
+                      <th (click)="sort('name')">List Book
+                        <span class="glyphicon sort-icon" *ngIf="key =='name'" [ngClass]="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                      </th>
+                      <th (click)="sort('read')">Status
+                            <span class="glyphicon sort-icon" *ngIf="key=='read'" [ngClass]="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                      </th>
+                      <th>Action</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr *ngFor="let book of books | orderBy: key : reverse | filter:filter| paginate: { itemsPerPage: 5, currentPage: p } ;index as i">
+                      <td>{{ i + 1 }}</td>
+                      <td>{{ book.id }}</td>
+                      <td>{{ book.name }}</td>
+                      
+                      <ng-container *ngIf="book.read; else elseTemplate">
+                            <td (click)="onChangeRead(i)">{{ book.read ? 'Read' : 'unRead'}} <span>(click unRead)</span></td>
+                      </ng-container>
+                      <ng-template #elseTemplate>
+                            <td (click)="onChangeUnRead(i)">{{ book.read ? 'Read' : 'unRead'}} <span>(click Read)</span></td>
+                      </ng-template>
+                      
+                      <td>
+                          <button type="button" class="btn btn-success-edit" [routerLink]="['/list-book/edit', book.id]">Edit</button>
+                          |
+                          <button type="button" class="btn btn-danger-delete" (click)="onDeleteBook(book.id)">Delete</button>
+                      </td>
+                  </tr>
+              </tbody>
+              
+          </table>
+          <pagination-controls (pageChange)="p = $event"></pagination-controls>
+      </div>
+  </div>
+  </div>

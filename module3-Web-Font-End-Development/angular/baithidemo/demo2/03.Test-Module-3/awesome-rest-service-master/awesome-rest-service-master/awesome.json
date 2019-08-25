@@ -1,0 +1,22 @@
+{
+  "awesomes": [
+    {
+      "id": 3,
+      "tag": "Javascript",
+      "url": "https://medium.freecodecamp.org/the-evolution-of-async-javascript-from-callbacks-to-promises-to-async-await-e73b047f2f40",
+      "descriptions": "Lịch sử tiến hóa của javascript async"
+    },
+    {
+      "id": 4,
+      "tag": "xp",
+      "url": "http://kata-log.rocks/index.html",
+      "descriptions": "Tài nguyên coding dojo"
+    },
+    {
+      "tag": "HTML",
+      "url": "https://vietpro.net.vn/bai-2-huong-dan-cai-dat-su-dung-bootstrap-4.html",
+      "descriptions": "Hướng dẫn học HTML",
+      "id": 5
+    }
+  ]
+}

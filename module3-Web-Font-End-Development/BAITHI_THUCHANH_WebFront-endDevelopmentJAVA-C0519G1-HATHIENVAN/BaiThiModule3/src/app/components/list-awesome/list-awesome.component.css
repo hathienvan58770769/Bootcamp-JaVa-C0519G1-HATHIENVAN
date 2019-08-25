@@ -1,0 +1,13 @@
+.list{
+    margin: 0 auto;
+    float: left;
+    background-color:rgba(106, 176, 196, 0.5);
+    width: 100%;
+}
+.create{
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    padding: 30px 0 ;
+}

@@ -1,0 +1,38 @@
+
+
+<div class="panel panel-primary">
+        
+    <div class="panel-heading">
+        <h3 class="panel-title">List Book Read</h3>
+    </div>
+    <div class="list">
+    <div class="panel-body">
+        <button type="button" class="btn btn-primary" [routerLink]="['/list-book/add']">Add Book</button>
+        <table class="table table-bordered table-hover" [style.margin-top.px]="20">
+            <thead>
+                <tr>
+                   
+                    <th>List Book unRead</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let book of books;index as i">
+                    <td *ngIf="!book.read">{{ book.name }}</td>
+                    <td *ngIf="!book.read" (click)='onChange(i)'>{{ book.read ? 'Read' : 'unRead'}} <span>(click read)</span></td>
+                    <td *ngIf="!book.read">
+                        <button type="button" class="btn btn-success-edit" [routerLink]="['/list-book/edit', book.id]">Edit</button>
+                        |
+                        <button type="button" class="btn btn-danger-delete" (click)="onDeleteBook(book.id)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+
+
+
+

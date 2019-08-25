@@ -1,0 +1,24 @@
+<div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Add Book</h3>
+        </div>
+        <div class="list">
+        <div class="panel-body">
+            <form>
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control-input" [(ngModel)]="book.name" name="name">
+    </div>
+    <div class="form-group">
+        <label for="read"> Read </label>
+        <select name="read" id="input" class="form-control-input" [(ngModel)]="read">
+                <option value="true">Reading</option>
+                <option value="false">Reading Again</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="onAddBook()">Add</button>
+</form>
+
+</div>
+</div>
+</div>

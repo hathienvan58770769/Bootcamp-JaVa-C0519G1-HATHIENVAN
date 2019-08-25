@@ -1,0 +1,27 @@
+<div class="container">
+    
+    <button type="button" class="btn btn-warning" [routerLink]="['/awesomes']" routerLinkActive="router-link-active" >Awesome Lists</button>
+    
+    <form>
+        <div class="form-group">
+            <label for="">Tag</label>
+            <input type="text" class="form-control" [(ngModel)]="list.tag" [ngModelOptions]="{standalone: true}">
+        </div>
+
+        <div class="form-group">
+            <label for="">URL</label>
+            <input type="text" class="form-control" [(ngModel)]="list.url" [ngModelOptions]="{standalone: true}">
+        </div>
+
+        <div class="form-group">
+            <label for="">Descriptions</label>
+            <textarea rows="4" cols="155" [(ngModel)]="list.descriptions"
+                [ngModelOptions]="{standalone: true}"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="onUpdateList()">Update</button>
+        
+        <button type="button" class="btn btn-danger" (click)="onDeleteList(list.id)">Remove</button>
+        
+    </form>
+
+</div>

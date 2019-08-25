@@ -1,0 +1,19 @@
+.list{
+    margin: 0 auto;
+    float: left;
+    background-color:rgba(106, 176, 196, 0.5);
+    width: 100%;
+}
+.btn-success-edit {
+    color: #fff;
+    background-color: #5386a3;
+    border-color: #5386a3
+}
+.btn-danger-delete{
+    color: #fff;
+    background-color: #bd708e;
+    border-color: #bd708e
+}
+span{
+    color: #bd708e;
+}

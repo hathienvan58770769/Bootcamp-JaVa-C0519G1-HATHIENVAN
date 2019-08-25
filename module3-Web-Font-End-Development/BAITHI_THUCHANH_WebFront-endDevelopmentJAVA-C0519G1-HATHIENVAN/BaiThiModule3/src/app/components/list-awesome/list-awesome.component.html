@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1>My Awesome List</h1>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Awesome List</h3>
+                </div>
+                <div class="list">
+                    <div class="panel-body">
+                        <button type="button" class="btn btn-primary create" [routerLink]="['/awesomes/create']"
+                            routerLinkActive="router-link-active">Create Awesome</button>
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Tag</th>
+                                    <th>URL</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let awesome of awesomes" [routerLink]="['/awesomes', awesome.id]"
+                                    routerLinkActive="router-link-active">
+                                    <td>{{ awesome.tag }}</td>
+                                    <td>{{ awesome.url }}</td>
+                                    <td>{{ awesome.descriptions }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

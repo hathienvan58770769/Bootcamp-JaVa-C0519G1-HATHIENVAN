@@ -1,0 +1,43 @@
+.edit{
+    margin-top: 100px;
+}
+.list{
+    margin: 0 auto;
+    float: left;
+    background-color:rgba(106, 176, 196, 0.5);
+    width: 100%;
+}
+.form-control-input{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #ffffff;
+    background-color: rgba(33, 111, 133, 0.5);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.form-control-text{
+    background-color: rgba(33, 111, 133, 0.5);
+    color: #ffffff;
+}
+.awesomelist{
+    margin-bottom: 30px;
+    
+}
+.btn-danger-delete{
+    float: right;
+    color: #fff;
+    background-color: #bd708e;
+    border-color: #bd708e
+}
+
+.btn-primary-update{
+    
+    color: #fff;
+    background-color: #5386a3;
+    border-color: #5386a3
+}
