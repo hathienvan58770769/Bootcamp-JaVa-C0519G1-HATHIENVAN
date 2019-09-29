@@ -7,53 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc1cd6d8-1a02-49f1-8e5c-b8c6ab674416" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/.idea/artifacts/springmvc5_springdatajpa2_jsp_mysql_example_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/lan1/Jpa_java_config/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/lan1/Jpa_java_config/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/lan1/Jpa_java_config/src/main/webapp/WEB-INF/views/employee/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/java/com/codegym/employees/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/java/com/codegym/employees/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/java/com/codegym/employees/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/java/com/codegym/employees/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/java/com/codegym/employees/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/java/com/codegym/employees/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/java/com/codegym/employees/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/java/com/codegym/employees/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/java/com/codegym/employees/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/java/com/codegym/employees/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/webapp/WEB-INF/views/employee/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/webapp/WEB-INF/views/employee/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/webapp/WEB-INF/views/employee/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/webapp/WEB-INF/views/employee/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/webapp/WEB-INF/views/employee/list-employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/webapp/WEB-INF/views/employee/list-employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/classes/com/codegym/employees/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/classes/com/codegym/employees/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/classes/com/codegym/employees/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/classes/com/codegym/employees/entity/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/employees/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/employees/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/employees/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/employees/entity/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/views/employee/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/views/employee/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/views/employee/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/views/employee/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/views/employee/list-employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/views/employee/list-employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WBDJAVA-EXAM-C0519G1-HATHIENVAN/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/.idea/dataSources/fc5bfb4f-7324-4e37-95ae-0eb2cd4e3b99.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/java/com/codegym/cms/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/java/com/codegym/cms/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/java/com/codegym/cms/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/java/com/codegym/cms/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/java/com/codegym/cms/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/webapp/WEB-INF/views/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/classes/com/codegym/cms/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/classes/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/classes/com/codegym/cms/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/classes/com/codegym/cms/entity/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/classes/com/codegym/cms/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/classes/com/codegym/cms/repository/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/classes/com/codegym/cms/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/classes/com/codegym/cms/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/classes/com/codegym/cms/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/classes/com/codegym/cms/service/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/cms/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/cms/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/cms/entity/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/cms/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/cms/repository/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/cms/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/cms/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/cms/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/classes/com/codegym/cms/service/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/views/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/19.Spring_Data_Repository/Jpa_java_config/target/springmvc5-springdatajpa2-jsp-mysql-example-0.0.1-SNAPSHOT/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RESORT_FURAMA/Resort-Furama/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RESORT_FURAMA/Resort-Furama/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RESORT_FURAMA/Resort-Furama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RESORT_FURAMA/Resort-Furama/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RESORT_FURAMA/Resort-Furama/src/furama/swimming/SwimmingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RESORT_FURAMA/Resort-Furama/src/furama/swimming/SwimmingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/next.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pause.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/play.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pre.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,30 +69,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/entity/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/CustomerRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="120">
               <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -131,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/controller/ProvinceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
+            <state relative-caret-position="288">
               <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -144,9 +93,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-431">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/config/PersistenceJPAConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
+            <state relative-caret-position="1065">
               <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -158,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/list-customer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="675">
               <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
             </state>
           </provider>
@@ -167,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/entity/Province.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="240">
               <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -179,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/ProvinceService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="180">
               <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -191,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="390">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#911#912#0" expanded="true" />
@@ -205,7 +172,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/config/WebMvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="790">
+            <state relative-caret-position="840">
               <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -227,7 +194,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -324,6 +291,11 @@
             <path>
               <item name="springmvc_jpa_javaconfig" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jpa_java_config" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc_jpa_javaconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jpa_java_config" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -346,69 +318,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvc_jpa_javaconfig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jpa_java_config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvc_jpa_javaconfig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jpa_java_config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvc_jpa_javaconfig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jpa_java_config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvc_jpa_javaconfig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jpa_java_config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvc_jpa_javaconfig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jpa_java_config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="formatter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvc_jpa_javaconfig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jpa_java_config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvc_jpa_javaconfig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jpa_java_config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springmvc_jpa_javaconfig" type="b2602c69:ProjectViewProjectNode" />
@@ -459,6 +368,11 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="customer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springmvc_jpa_javaconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jpa_java_config" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -470,6 +384,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -478,6 +393,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31808278" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -630,11 +546,12 @@
       <workItem from="1564127701741" duration="40000" />
       <workItem from="1564128643568" duration="5000" />
       <workItem from="1564128705366" duration="55000" />
+      <workItem from="1569134376230" duration="60000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58458000" />
+    <option name="totallyTimeSpent" value="58518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -649,7 +566,7 @@
     <frame x="0" y="23" width="1280" height="681" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28836834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29321486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -687,6 +604,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -814,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/province/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -863,13 +778,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/controller/CustomerController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -887,50 +795,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/CustomerRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+        <state relative-caret-position="180">
+          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/config/PersistenceJPAConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/entity/Province.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/ProvinceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/list-customer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -941,10 +812,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/CustomerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        <state relative-caret-position="120">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/config/PersistenceJPAConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/list-customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/entity/Province.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/ProvinceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -953,8 +861,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="390">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#911#912#0" expanded="true" />
@@ -965,7 +873,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
+        <state relative-caret-position="840">
           <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -975,11 +883,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/controller/ProvinceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
+        <state relative-caret-position="288">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>

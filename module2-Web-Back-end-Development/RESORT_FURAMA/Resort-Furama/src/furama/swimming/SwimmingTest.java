@@ -9,8 +9,8 @@ public class SwimmingTest {
 
         System.out.println("\n");
 
-        Customer customer = new Customer("Nguyen Thi L", 30, 4);
+    Customer customer = new Customer("Nguyen Thi L", 30, 4);
         System.out.println(customer);
         swimming.swimmingPool(8);
-    }
+}
 }

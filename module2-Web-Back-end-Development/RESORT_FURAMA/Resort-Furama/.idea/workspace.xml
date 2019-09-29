@@ -2,185 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59cec1f3-5de2-4f5f-8101-907e6ea68020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/furama/accommodation/Accommodation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/accommodation/house/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/accommodation/house/HouseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/accommodation/tent/Tent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/accommodation/villa/Villa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/accommodation/villa/VillaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/cinema/Cinema4D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/cinema/CinemaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/customer/ArrayListCustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/customer/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/employees/Employees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/employees/EmployeesHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/filingcabinets/FilingCabinets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/library/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/library/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/library/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/library/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/library/MovieTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/library/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/library/MusicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/parking/ParkingLots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/parking/ParkingLotsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/payment/MasterCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/payment/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/payment/Visa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/swimming/Swimming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/furama/swimming/SwimmingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap1/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap1/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap1/TestCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap1/TestCylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap2/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap2/Point3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap2/TestPoint2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap2/TestPoint3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap3/MoveAblePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap3/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap3/TestMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap3/TestPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap4/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap4/TestTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/BaiTap/src/baitap4/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/ThucHanh/src/thuchanh/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/ThucHanh/src/thuchanh/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/ThucHanh/src/thuchanh/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/ThucHanh/src/thuchanh/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/ThucHanh/src/thuchanh/TestCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/ThucHanh/src/thuchanh/TestRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/ThucHanh/src/thuchanh/TestShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/4.Inheritance_JaVa/ThucHanh/src/thuchanh/TestSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/BaiTap/src/baitap/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/BaiTap/src/baitap/Colorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/BaiTap/src/baitap/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/BaiTap/src/baitap/Resizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/BaiTap/src/baitap/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/BaiTap/src/baitap/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/BaiTap/src/baitap/TestColorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/BaiTap/src/baitap/TestResizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh1/TestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh1/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh1/animal/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh1/animal/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh1/edible/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh1/edible/fruit/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh1/edible/fruit/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh1/edible/fruit/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh2/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh2/CircleCompatator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh2/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh3/ComparableCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/5.Advanced_Object_Oriented_Design/ThucHanh/src/thuchanh3/TestComparableCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/6.Data_Structure&amp;Basic_Algorithm/BaiTap/src/baitap1_arraylist/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/6.Data_Structure&amp;Basic_Algorithm/BaiTap/src/baitap1_arraylist/TestMyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/6.Data_Structure&amp;Basic_Algorithm/BaiTap/src/baitap2_linkedlist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/6.Data_Structure&amp;Basic_Algorithm/BaiTap/src/baitap2_linkedlist/TestMyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/6.Data_Structure&amp;Basic_Algorithm/BaiTap/src/baitap3_phonelist/PhoneList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/6.Data_Structure&amp;Basic_Algorithm/BaiTap/src/baitap3_phonelist/PhoneListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/6.Data_Structure&amp;Basic_Algorithm/BaiTap/src/baitap3_phonelist/TestPhoneList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/6.Data_Structure&amp;Basic_Algorithm/ThucHanh/src/thuchanh1_list/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/6.Data_Structure&amp;Basic_Algorithm/ThucHanh/src/thuchanh1_list/TestMyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/6.Data_Structure&amp;Basic_Algorithm/ThucHanh/src/thuchanh2_linkedlist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/6.Data_Structure&amp;Basic_Algorithm/ThucHanh/src/thuchanh2_linkedlist/TestMyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/7.Clean_Code&amp;Refactoring/BaiTap/src/refactoring/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/7.Clean_Code&amp;Refactoring/BaiTap/src/refactoring/TennisGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/7.Clean_Code&amp;Refactoring/ThucHanh/src/thuchanh1/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/7.Clean_Code&amp;Refactoring/ThucHanh/src/thuchanh1/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/7.Clean_Code&amp;Refactoring/ThucHanh/src/thuchanh2/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/7.Clean_Code&amp;Refactoring/ThucHanh/src/thuchanh2/FizzBuzzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/7.Clean_Code&amp;Refactoring/ThucHanh/src/thuchanh3/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2-Web-Back-end-Development/7.Clean_Code&amp;Refactoring/ThucHanh/src/thuchanh3/CylinderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/BaiTap.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/out/production/BaiTap/baitap/BT1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/BaiTap/src/baitap/BT1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/ThucHanh.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/out/production/ThucHanh/thuchanh/TH1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/out/production/ThucHanh/thuchanh/TH2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/out/production/ThucHanh/thuchanh/TH3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/out/production/ThucHanh/thuchanh/TH4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/out/production/ThucHanh/thuchanh/TH5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/src/thuchanh/TH1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/src/thuchanh/TH2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/src/thuchanh/TH3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/src/thuchanh/TH4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Array&amp;Method_JaVa/ThucHanh/src/thuchanh/TH5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/BaiTap.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/out/production/BaiTap/baitap1/QuadraticEquation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/out/production/BaiTap/baitap1/Test_QuadraticEquation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/out/production/BaiTap/baitap2/StopWatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/src/baitap1/QuadraticEquation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/src/baitap1/TestQuadraticEquation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/BaiTap/src/baitap2/StopWatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/ThucHanh.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/out/production/ThucHanh/META-INF/ThucHanh.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/out/production/ThucHanh/th2/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/out/production/ThucHanh/th2/test_circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/out/production/ThucHanh/thuchanh/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/out/production/ThucHanh/thuchanh/Test_Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/src/thuchanh/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/Class&amp;OPP/ThucHanh/src/thuchanh/Test_Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/BAITAP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/Bai3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/Bai4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/Bai5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/Bai6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/bai1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/out/production/BAITAP/Baitap/bai2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/Bai3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/Bai4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/Bai5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/Bai6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/bai1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/BAITAP/src/Baitap/bai2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/THUC_HANH.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/out/production/THUC_HANH/ThucHanh/th9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2-Web Back-end Development/LanguageJaVa/THUC_HANH/src/ThucHanh/th9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/furama/swimming/SwimmingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/furama/swimming/SwimmingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/next.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pause.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pic-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/play.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3-Web-Font-End-Development/3-JQUERY/BaiTap/Mp3/images/pre.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -195,82 +32,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/furama/cinema/CinemaTest.java">
+        <entry file="file://$PROJECT_DIR$/src/furama/swimming/Swimming.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/furama/filingcabinets/FilingCabinets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/furama/library/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/furama/library/BookTest.java">
+        <entry file="file://$PROJECT_DIR$/src/furama/swimming/SwimmingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/furama/library/Library.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/furama/library/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/furama/library/MovieTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/furama/library/Music.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/furama/library/MusicTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -286,12 +60,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/furama/Swimming.java" />
         <option value="$PROJECT_DIR$/src/furama/Accomodation.java" />
         <option value="$PROJECT_DIR$/src/furama/Test.java" />
         <option value="$PROJECT_DIR$/src/furama/Accommodation" />
@@ -342,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/furama/parking/ParkingLotsTest.java" />
         <option value="$PROJECT_DIR$/src/furama/cinema/Cinema4D.java" />
         <option value="$PROJECT_DIR$/src/furama/cinema/CinemaTest.java" />
+        <option value="$PROJECT_DIR$/src/furama/swimming/SwimmingTest.java" />
       </list>
     </option>
   </component>
@@ -353,10 +127,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
+    <option name="x" value="92" />
     <option name="y" value="23" />
     <option name="width" value="1188" />
-    <option name="height" value="706" />
+    <option name="height" value="681" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -378,6 +152,80 @@
               <item name="Resort-Furama" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Resort-Furama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resort-Furama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="furama" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resort-Furama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resort-Furama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="furama" type="462c0819:PsiDirectoryNode" />
+              <item name="accommodation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resort-Furama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resort-Furama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="furama" type="462c0819:PsiDirectoryNode" />
+              <item name="accommodation" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resort-Furama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resort-Furama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="furama" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resort-Furama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resort-Furama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="furama" type="462c0819:PsiDirectoryNode" />
+              <item name="employees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resort-Furama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resort-Furama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="furama" type="462c0819:PsiDirectoryNode" />
+              <item name="filingcabinets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resort-Furama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resort-Furama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="furama" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resort-Furama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resort-Furama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="furama" type="462c0819:PsiDirectoryNode" />
+              <item name="parking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resort-Furama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resort-Furama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="furama" type="462c0819:PsiDirectoryNode" />
+              <item name="payment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resort-Furama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resort-Furama" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="furama" type="462c0819:PsiDirectoryNode" />
+              <item name="swimming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resort-Furama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -387,13 +235,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -511,16 +362,21 @@
       <workItem from="1561338460280" duration="237000" />
       <workItem from="1561338991649" duration="2833000" />
       <workItem from="1561382744098" duration="371000" />
+      <workItem from="1568601010961" duration="68000" />
+      <workItem from="1568601128133" duration="57000" />
+      <workItem from="1568601899694" duration="59000" />
+      <workItem from="1568602094104" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53384000" />
+    <option name="totallyTimeSpent" value="53587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="23" width="1188" height="706" extended-state="0" />
+    <frame x="92" y="23" width="1188" height="681" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49388754" visible="true" weight="0.34729493" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49388754" visible="true" weight="0.37172773" />
       <window_info id="Structure" order="1" sideWeight="0.50611246" side_tool="true" weight="0.12893401" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -585,6 +441,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/resource/Resource.java" />
     <entry file="file://$PROJECT_DIR$/src/furama/Resource.java" />
@@ -597,20 +458,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/furama/payment/CreditCard.java" />
-    <entry file="file://$PROJECT_DIR$/src/furama/accommodation/house/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/furama/accommodation/villa/Villa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -646,42 +493,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/furama/payment/Paymentt.java" />
     <entry file="file://$PROJECT_DIR$/src/furama/payment/Paymen.java" />
-    <entry file="file://$PROJECT_DIR$/src/furama/payment/Visa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/furama/payment/MasterCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/furama/payment/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/furama/accommodation/Accommodation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/furama/customer/CustomerDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/furama/customer/ArrayListCustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -689,23 +500,6 @@
           <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
           <folding>
             <element signature="e#163#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/furama/swimming/SwimmingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/furama/customer/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -718,13 +512,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/furama/library.java" />
-    <entry file="file://$PROJECT_DIR$/src/furama/swimming/Swimming.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/furama/employees/EmployeesHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -754,35 +541,6 @@
             <element signature="e#874#875#0" expanded="true" />
             <element signature="e#938#939#0" expanded="true" />
             <element signature="e#994#995#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/furama/parking/ParkingLotsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#203#216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/furama/parking/ParkingLots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -829,6 +587,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/furama/library/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/furama/parking/ParkingLots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/furama/parking/ParkingLotsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/furama/payment/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/furama/payment/Visa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/furama/accommodation/Accommodation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource-Furama.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/furama/customer/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/furama/payment/MasterCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/furama/accommodation/house/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/furama/library/MovieTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -850,10 +702,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/furama/library/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/src/furama/swimming/Swimming.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="52" />
+        <state relative-caret-position="300">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/furama/swimming/SwimmingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
